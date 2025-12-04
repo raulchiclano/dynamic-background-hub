@@ -1,21 +1,36 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "dynamic-background-hub"
+  title: "Dynamic Background Hypothesis"
+  description: "Research Hub for Vacuum Hydrodynamics and Emergent Gravity"
+  site-url: "https://raulchiclano.es"
+  repo-url: "https://github.com/TU_USUARIO/TU_REPO"
+  repo-actions: [edit, issue]
+  
   navbar:
+    background: primary
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Theory"
+        href: theory/index.qmd
+      - text: "Simulations"
+        href: simulations/index.qmd
+      - text: "DevLog"
+        href: blog/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/TU_USUARIO/TU_REPO
+      - icon: book
+        href: https://zenodo.org/TU_DOI_LINK
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo  # O prueba 'journal', 'litera' para look académico
     css: styles.css
     toc: true
-
-
-
+    code-copy: true
+    smooth-scroll: true
+    highlight-style: github

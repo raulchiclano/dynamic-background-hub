@@ -1,0 +1,19 @@
+---
+title: "Simulation Lab"
+listing:
+  contents: "*.ipynb"
+  type: grid          # O prueba 'default' (lista) o 'table'
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [image, date, title, author, description]
+page-layout: full
+title-block-banner: true
+---
+
+# Computational Proof of Concept
+
+Here we present the numerical experiments validating the core tenets of the Dynamic Background Hypothesis. All simulations are solved using the **Split-Step Fourier Method** for the Gross-Pitaevskii Equation.
+
+## Core Experiments
