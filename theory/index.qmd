@@ -1,0 +1,41 @@
+---
+title: "Theoretical Framework"
+author: "Raúl Chiclano"
+---
+
+# The Dynamic Background Hypothesis
+
+This project explores the idea that the universe is not an empty stage, but a physical superfluid medium.
+
+## 1. The Master Equation (EFT)
+
+The fundamental substrate is described by a complex scalar field $\Psi(x^\mu)$ whose effective dynamics at low energies obey a non-linear wave equation with saturation:
+
+$$ \Box \Psi + \alpha |\Psi|^2 \Psi + \beta |\Psi|^4 \Psi = 0 $$
+
+*   **Stability:** $\beta > 0$ ensures vacuum stability (UV cutoff).
+*   **Condensation:** $\alpha < 0$ generates spontaneous symmetry breaking ($\rho_0 \neq 0$).
+
+## 2. Emergent Gravity (Acoustic Metric)
+
+Perturbations $\phi$ on the background $\Psi_0 = \sqrt{\rho_0}e^{i\theta}$ propagate along null geodesics of an effective Lorentzian metric $g_{\mu\nu}^{\text{eff}}$, derived from the hydrodynamics of the medium:
+
+$$ g_{\mu\nu}^{\text{eff}} = \Omega(\rho_0) \left[ \eta_{\mu\nu} + \left( \frac{1}{c_s^2} - 1 \right) v_\mu v_\nu \right] $$
+
+Where $\Omega(\rho_0)$ is the conformal factor dependent on local density. Gravity is identified with density gradients: $\Gamma^\lambda_{\mu\nu} \sim \partial \rho_0$.
+
+## 3. Newtonian Limit & Criticality
+
+In the static limit, the emergent gravitational potential $\Phi(r)$ adopts a Yukawa form:
+
+$$ \Phi(r) = - G_{\text{eff}} M \frac{e^{-r/\lambda}}{r} $$
+
+To recover long-range Newtonian gravity ($1/r$), the background must operate in a regime of **Self-Organized Criticality (SOC)**, such that the correlation length diverges ($\lambda \to \infty$).
+
+## 4. Cosmology
+
+The vacuum energy density is given by:
+
+$$ \rho_{\text{vac}} = V_0 - \frac{\alpha^2}{4\beta} $$
+
+The expansion of the universe acts as a cooling mechanism, driving the parameter $\alpha(T) \to 0$, anchoring the universe in the criticality necessary for gravity.

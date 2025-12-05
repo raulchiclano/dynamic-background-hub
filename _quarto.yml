@@ -6,9 +6,10 @@ website:
   title: "Dynamic Background Hypothesis"
   description: "Research Hub for Vacuum Hydrodynamics and Emergent Gravity"
   site-url: "https://raulchiclano.es"
-  repo-url: "https://github.com/TU_USUARIO/TU_REPO"
+  repo-url: "https://github.com/raulchiclano/Dynamic-Background-Hypothesis"
   repo-actions: [edit, issue]
   
+  # 1. NAVEGACIÓN SUPERIOR 
   navbar:
     background: primary
     left:
@@ -16,19 +17,44 @@ website:
         href: index.qmd
       - text: "Theory"
         href: theory/index.qmd
-      - text: "Simulations"
+      - text: "Simulations Lab"
         href: simulations/index.qmd
       - text: "DevLog"
         href: blog/index.qmd
     right:
       - icon: github
-        href: https://github.com/TU_USUARIO/TU_REPO
+        href: https://github.com/raulchiclano/Dynamic-Background-Hypothesis
       - icon: book
-        href: https://zenodo.org/TU_DOI_LINK
+        href: https://zenodo.org/doi/10.5281/zenodo.17748410
+
+  # 2. NAVEGACIÓN LATERAL 
+  sidebar:
+    - title: "Simulation Lab"
+      style: "docked"
+      background: "light"
+      collapse-level: 1
+      contents:
+        - href: simulations/index.qmd
+          text: "Overview"
+        - section: "Matter & Forces"
+          contents:
+            - simulations/01_vortex_stability.ipynb
+            - simulations/02_vortex_interaction.ipynb
+            - simulations/05_hopfion_3d.ipynb
+        - section: "Gravity & Relativity"
+          contents:
+            - simulations/03_gravitational_lensing.ipynb
+            - simulations/07_einstein_tensor.ipynb
+        - section: "Cosmology"
+          contents:
+            - simulations/04_cosmology_soc.ipynb
+        - section: "Quantum Mechanics"
+          contents:
+            - simulations/06_quantum_interference.ipynb
 
 format:
   html:
-    theme: cosmo  # O prueba 'journal', 'litera' para look académico
+    theme: cosmo
     css: styles.css
     toc: true
     code-copy: true
