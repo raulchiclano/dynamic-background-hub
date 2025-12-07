@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/simulations/index.html",
+    "items": [
+      "/simulations/01_vortex_stability.html",
+      "/simulations/02_vortex_interaction.html",
+      "/simulations/03_gravitational_lensing.html",
+      "/simulations/04_cosmology_soc.html",
+      "/simulations/05_hopfion_3d.html",
+      "/simulations/06_quantum_interference.html",
+      "/simulations/07_einstein_tensor.html"
+    ]
+  }
+]
