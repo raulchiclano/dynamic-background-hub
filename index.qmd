@@ -1,7 +1,59 @@
 ---
-title: "dynamic-background-hub"
+title: "The Dynamic Background Hypothesis"
+subtitle: "Unifying Gravity, Matter, and Quantum Mechanics through Vacuum Hydrodynamics"
+page-layout: full
 ---
 
-This is a Quarto website.
+::: {.grid}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {.g-col-12 .g-col-md-6}
+## The Concept
+What if spacetime is not an empty geometry, but a physical **superfluid**?
+What if particles are not point-like excitations, but **topological knots** in this fluid?
+What if gravity is just **refraction**?
+
+This project explores a unified framework where General Relativity and Quantum Mechanics emerge as hydrodynamic limits of a single underlying medium: the **Dynamic Background**.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<!-- Asegúrate de tener esta imagen en una carpeta 'images' o usa una ruta relativa correcta a tus resultados -->
+![](images/vortex_demo.png){.rounded .shadow-lg width="100%"}
+*Emergent forces between topological defects (Simulation 02)*
+:::
+
+:::
+
+## Key Pillars of the Hypothesis
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### 1. Matter as Topology
+Particles are stable solitons (vortices and Hopfions) protected by topological charges.
+[Explore Simulations &rarr;](simulations/01_vortex_stability.html)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 2. Emergent Gravity
+Curvature is an effective description of density gradients. Light bends due to refraction.
+[See Lensing &rarr;](simulations/03_gravitational_lensing.html)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 3. Quantum Hydrodynamics
+Wave-particle duality arises from the pilot-wave dynamics of the background fluid.
+[Watch Interference &rarr;](simulations/06_quantum_interference.html)
+:::
+
+:::
+
+---
+
+### Open Science Status
+This is a living research project. All code is open source and reproducible.
+
+| Resource | Status | Link |
+| :--- | :--- | :--- |
+| **Paper** | Preprint Available | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17748410.svg)](https://doi.org/10.5281/zenodo.17748410) |
+| **Code** | v1.0 (Python) | [GitHub Repository](https://github.com/raulchiclano/Dynamic-Background-Hypothesis) |
+| **Validation** | Phase 1 Complete | [View Results](simulations/index.html) |
