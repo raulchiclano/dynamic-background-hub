@@ -1,0 +1,13 @@
+---
+title: "DevLog: Research Updates"
+subtitle: "Daily progress, insights, and breakthroughs from the Dynamic Background project."
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---

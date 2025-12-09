@@ -1,0 +1,30 @@
+---
+title: "Passing the Einstein Test: PPN Gamma = 1"
+author: "Raúl Chiclano"
+date: "2025-11-24"
+categories: [validation, relativity, mathematics]
+description: "Analytical confirmation that the acoustic metric reproduces General Relativity in the Solar System."
+---
+
+## The Challenge
+
+Any alternative theory of gravity faces a deadly filter: **The Solar System Tests**.
+General Relativity predicts that light bends around the sun by exactly $1.75''$ arcseconds. Many scalar theories predict half that value ($\gamma = 0$).
+
+We used symbolic calculus (`SymPy`) to derive the Post-Newtonian Parameter $\gamma$ for the Dynamic Background acoustic metric.
+
+## The Result
+
+The derivation (Simulation 08) yielded an exact match:
+
+$$ \gamma = \frac{g_{rr}^{(1)}}{g_{00}^{(1)}} = 1 $$
+
+This confirms that the fluid density gradients curve space and time in the exact proportion required by Einstein's theory.
+
+## The MOND Regime
+
+Furthermore, Simulation 09 revealed that the effective Lagrangian naturally contains non-linear terms ($X^2$) that mimic **MOND** behavior at low accelerations.
+
+Crucially, Simulation 10 confirmed that these non-linear corrections are suppressed by 38 orders of magnitude in the Solar System, ensuring that local physics remains Newtonian/Einsteinian while galactic dynamics exhibit dark matter-like effects.
+
+**Status:** Phase 2.1 Complete. The theory is safe at local scales.
