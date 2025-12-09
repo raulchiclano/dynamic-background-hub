@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2025-11-24-einstein-test.html"
+    ]
+  },
+  {
     "listing": "/simulations/index.html",
     "items": [
       "/simulations/01_vortex_stability.html",
@@ -8,7 +14,10 @@
       "/simulations/04_cosmology_soc.html",
       "/simulations/05_hopfion_3d.html",
       "/simulations/06_quantum_interference.html",
-      "/simulations/07_einstein_tensor.html"
+      "/simulations/07_einstein_tensor.html",
+      "/simulations/08_ppn_gamma.html",
+      "/simulations/09_mond_regime.html",
+      "/simulations/10_solar_deflection.html"
     ]
   }
 ]

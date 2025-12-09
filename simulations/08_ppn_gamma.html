@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Raúl Chiclano">
-<meta name="dcterms.date" content="2025-11-30">
+<meta name="dcterms.date" content="2025-11-24">
 
-<title>3D Matter: The Hopfion Structure – Dynamic Background Hypothesis</title>
+<title>Simulation 08: Post-Newtonian Parameter Gamma – Dynamic Background Hypothesis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -140,7 +140,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -166,7 +166,7 @@ window.Quarto = {
 <span class="menu-text">Theory</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../simulations/index.html" aria-current="page"> 
+    <a class="nav-link" href="../simulations/index.html"> 
 <span class="menu-text">Simulations Lab</span></a>
   </li>  
   <li class="nav-item">
@@ -191,145 +191,31 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../simulations/01_vortex_stability.html">Matter &amp; Forces</a></li><li class="breadcrumb-item"><a href="../simulations/05_hopfion_3d.html">3D Matter: The Hopfion Structure</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../simulations/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Matter &amp; Forces</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../simulations/01_vortex_stability.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Matter as Topological Defects: Vortex Stability</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../simulations/02_vortex_interaction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Emergent Forces: Vortex Interaction</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../simulations/05_hopfion_3d.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">3D Matter: The Hopfion Structure</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">Gravity &amp; Relativity</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../simulations/03_gravitational_lensing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analog Gravity: Lensing by Density Gradients</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../simulations/07_einstein_tensor.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mathematical Proof: Deriving the Einstein Tensor</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
- <span class="menu-text">Cosmology</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../simulations/04_cosmology_soc.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cosmology: Self-Organized Criticality &amp; Dark Energy</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">Quantum Mechanics</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../simulations/06_quantum_interference.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Emergent Quantum Mechanics: Double Slit Experiment</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#d-topological-structure-the-hopfion" id="toc-d-topological-structure-the-hopfion" class="nav-link active" data-scroll-target="#d-topological-structure-the-hopfion">3D Topological Structure: The Hopfion</a>
-  <ul class="collapse">
-  <li><a href="#objective" id="toc-objective" class="nav-link" data-scroll-target="#objective">1. Objective</a></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">2. Methodology</a></li>
-  <li><a href="#observed-results" id="toc-observed-results" class="nav-link" data-scroll-target="#observed-results">3. Observed Results</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">4. Conclusion</a></li>
-  </ul></li>
+  <li><a href="#objective" id="toc-objective" class="nav-link active" data-scroll-target="#objective">Objective</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.dev/raulchiclano/Dynamic-Background-Hypothesis/blob/main/simulations/05_hopfion_3d.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.dev/raulchiclano/Dynamic-Background-Hypothesis/blob/main/simulations/08_ppn_gamma.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../simulations/01_vortex_stability.html">Matter &amp; Forces</a></li><li class="breadcrumb-item"><a href="../simulations/05_hopfion_3d.html">3D Matter: The Hopfion Structure</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">3D Matter: The Hopfion Structure</h1>
+<h1 class="title">Simulation 08: Post-Newtonian Parameter Gamma</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">matter</div>
-    <div class="quarto-category">topology</div>
-    <div class="quarto-category">3d</div>
+    <div class="quarto-category">Phase-2</div>
+    <div class="quarto-category">relativity</div>
+    <div class="quarto-category">mathematics</div>
   </div>
   </div>
 
@@ -347,7 +233,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 30, 2025</p>
+      <p class="date">November 24, 2025</p>
     </div>
   </div>
   
@@ -359,118 +245,124 @@ window.Quarto = {
 </header>
 
 
-<section id="d-topological-structure-the-hopfion" class="level1">
-<h1>3D Topological Structure: The Hopfion</h1>
-<section id="objective" class="level3">
-<h3 class="anchored" data-anchor-id="objective">1. Objective</h3>
-<p>To demonstrate that the complex scalar field <span class="math inline">\(\Psi\)</span> admits stable topological solutions in 3 dimensions that are not simple points, but knotted structures (“Hopfions”). This is crucial for modeling particles with spin and charge in a realistic 3D space.</p>
+<section id="objective" class="level1">
+<h1>Objective</h1>
+<p>To analytically calculate the PPN parameter <span class="math inline">\(\gamma\)</span> for the acoustic metric. In General Relativity, <span class="math inline">\(\gamma=1\)</span> (space curvature = time curvature). We check if the Dynamic Background matches this prediction.</p>
 </section>
-<section id="methodology" class="level3">
-<h3 class="anchored" data-anchor-id="methodology">2. Methodology</h3>
-<ul>
-<li><strong>Space:</strong> Volumetric grid <span class="math inline">\(64^3\)</span>.</li>
-<li><strong>Topological Construction:</strong> The <strong>Hopf Fibration</strong> (inverse stereographic projection from <span class="math inline">\(S^3 \to S^2\)</span>) was used to generate the initial field.</li>
-<li><strong>Visualization:</strong> The low-density isosurface (the defect core) was extracted using the <em>Marching Cubes</em> algorithm and colored according to the local phase of the field.</li>
-</ul>
-</section>
-<section id="observed-results" class="level3">
-<h3 class="anchored" data-anchor-id="observed-results">3. Observed Results</h3>
-<ol type="1">
-<li><strong>Toroidal Geometry:</strong> The low-density region forms a perfect closed torus (donut). This confirms that the defect is a vortex line closed upon itself.</li>
-<li><strong>Phase Structure (Color):</strong> The existence of the toroidal structure mathematically implies a Hopf charge <span class="math inline">\(Q_H=1\)</span>. The phase field lines twist around the torus, providing the necessary topological stability to prevent collapse.</li>
-</ol>
-</section>
-<section id="conclusion" class="level3">
-<h3 class="anchored" data-anchor-id="conclusion">4. Conclusion</h3>
-<p>The simulation validates the possibility of <strong>complex topological matter</strong> existing within the Dynamic Background. A Hopfion behaves as a localized particle with internal structure and intrinsic angular momentum (spin), offering a geometric candidate for Standard Model fermions.</p>
-<div id="07baa920" class="cell" data-execution_count="2">
+<section id="methodology" class="level1">
+<h1>Methodology</h1>
+<p>We use <code>SymPy</code> to expand the effective metric <span class="math inline">\(g_{\mu\nu}\)</span> in the weak field limit and extract the coefficients.</p>
+<div id="d072f9cd" class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> mpl_toolkits.mplot3d.art3d <span class="im">import</span> Poly3DCollection</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> skimage <span class="im">import</span> measure</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. CONFIGURACIÓN DEL ESPACIO 3D</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> <span class="dv">64</span>              <span class="co"># Resolución (Cubo 64^3)</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> <span class="fl">10.0</span>            <span class="co"># Tamaño de la caja</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span>L<span class="op">/</span><span class="dv">2</span>, L<span class="op">/</span><span class="dv">2</span>, N)</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.linspace(<span class="op">-</span>L<span class="op">/</span><span class="dv">2</span>, L<span class="op">/</span><span class="dv">2</span>, N)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> np.linspace(<span class="op">-</span>L<span class="op">/</span><span class="dv">2</span>, L<span class="op">/</span><span class="dv">2</span>, N)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>X, Y, Z <span class="op">=</span> np.meshgrid(x, y, z, indexing<span class="op">=</span><span class="st">'ij'</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/usr/bin/env python3</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># ppn_gamma_corrected.py</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Cálculo simbólico del parámetro PPN gamma a partir de la métrica acústica efectiva.</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Método: expandir en epsilon, extraer coeficientes constantes A,C y lineales B,D, </span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># luego normalizar con factores independientes de tiempo y espacio:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#   g00_norm = -1 + (B*s_t)*epsilon</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">#   grr_norm =  1 + (D*s_x)*epsilon</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># y gamma = (D*s_x) / |B*s_t|</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Evita division por cero y avisa si hay degeneraciones de parámetros.</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sympy <span class="im">as</span> sp</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Coordenada radial esférica</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>R_sq <span class="op">=</span> X<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> Y<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> Z<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_ppn_gamma_corrected():</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"--- INICIANDO CÁLCULO PPN (GAMMA) - VERSIÓN CORREGIDA ---"</span>)</span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. CONSTRUCCIÓN DEL HOPFIÓN (FIBRACIÓN DE HOPF)</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>R0 <span class="op">=</span> <span class="fl">2.0</span> </span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Coordenadas proyectadas (Mapa de Hopf racional)</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>Numerator <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> (X <span class="op">+</span> <span class="ot">1j</span> <span class="op">*</span> Y)</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>Denominator <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> Z <span class="op">+</span> <span class="ot">1j</span> <span class="op">*</span> (R_sq <span class="op">-</span> R0<span class="op">**</span><span class="dv">2</span>)</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># El campo escalar Psi</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>Psi <span class="op">=</span> Numerator <span class="op">/</span> Denominator</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Símbolos</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    r <span class="op">=</span> sp.Symbol(<span class="st">'r'</span>, positive<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    epsilon <span class="op">=</span> sp.Symbol(<span class="st">'epsilon'</span>, real<span class="op">=</span><span class="va">True</span>)       <span class="co"># potencial débil (proporcional a GM/r)</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    rho_0 <span class="op">=</span> sp.Symbol(<span class="st">'rho_0'</span>, positive<span class="op">=</span><span class="va">True</span>)       <span class="co"># densidad de fondo &gt; 0</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    c_s <span class="op">=</span> sp.Symbol(<span class="st">'c_s'</span>, positive<span class="op">=</span><span class="va">True</span>)           <span class="co"># velocidad de sonido local (&gt;0)</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Modelo de densidad perturbada (lineal en epsilon)</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="co"># rho = rho_0 * (1 + 2*epsilon)  (como en tu planteamiento)</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    rho <span class="op">=</span> rho_0 <span class="op">*</span> (<span class="dv">1</span> <span class="op">+</span> <span class="dv">2</span><span class="op">*</span>epsilon)</span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Normalización y perfil de densidad</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>rho_0 <span class="op">=</span> <span class="fl">1.0</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>Mag <span class="op">=</span> np.<span class="bu">abs</span>(Psi)</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>Density <span class="op">=</span> rho_0 <span class="op">*</span> (Mag<span class="op">**</span><span class="dv">2</span> <span class="op">/</span> (<span class="dv">1</span> <span class="op">+</span> Mag<span class="op">**</span><span class="dv">2</span>)) <span class="co"># Perfil tipo Skyrmion suave</span></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Reconstruimos el campo completo</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>Psi_field <span class="op">=</span> np.sqrt(Density) <span class="op">*</span> np.exp(<span class="ot">1j</span> <span class="op">*</span> np.angle(Psi))</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. VISUALIZACIÓN VOLUMÉTRICA (ISOSUPERFICIE)</span></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>level <span class="op">=</span> <span class="fl">0.3</span> <span class="op">*</span> np.<span class="bu">max</span>(Density)</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Algoritmo Marching Cubes</span></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>verts, faces, normals, values <span class="op">=</span> measure.marching_cubes(Density, level)</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>verts <span class="op">=</span> verts <span class="op">*</span> (L<span class="op">/</span>N) <span class="op">-</span> L<span class="op">/</span><span class="dv">2</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Factor conforme Omega = rho / c_s (como en el ejemplo original)</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    Omega <span class="op">=</span> rho <span class="op">/</span> c_s</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Construcción de la métrica acústica simplificada (solo g00 y grr relevantes)</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="co"># g00 = Omega * (c_s^-2 - 2)   (según el esquema previo)</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="co"># grr = Omega * 1</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    g00 <span class="op">=</span> Omega <span class="op">*</span> (c_s<span class="op">**</span>(<span class="op">-</span><span class="dv">2</span>) <span class="op">-</span> <span class="dv">2</span>)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    grr <span class="op">=</span> Omega <span class="op">*</span> <span class="dv">1</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Expandir en serie en epsilon hasta término lineal</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    g00_series <span class="op">=</span> sp.series(g00, epsilon, <span class="dv">0</span>, <span class="dv">2</span>).removeO().expand()</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    grr_series <span class="op">=</span> sp.series(grr, epsilon, <span class="dv">0</span>, <span class="dv">2</span>).removeO().expand()</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Expansiones (hasta O(epsilon)):</span><span class="ch">\n</span><span class="ss"> g00 = </span><span class="sc">{</span>g00_series<span class="sc">}</span><span class="ch">\n</span><span class="ss"> grr = </span><span class="sc">{</span>grr_series<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="co"># --- PLOT ---</span></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> fig.add_subplot(<span class="dv">111</span>, projection<span class="op">=</span><span class="st">'3d'</span>)</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Obtener términos constantes (A,C) y lineales en epsilon (B,D)</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    A <span class="op">=</span> sp.simplify(sp.expand(sp.series(g00, epsilon, <span class="dv">0</span>, <span class="dv">1</span>).removeO()))</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    C <span class="op">=</span> sp.simplify(sp.expand(sp.series(grr, epsilon, <span class="dv">0</span>, <span class="dv">1</span>).removeO()))</span>
 <span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear la malla poligonal</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>triangles <span class="op">=</span> [verts[face] <span class="cf">for</span> face <span class="kw">in</span> faces]</span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>mesh <span class="op">=</span> Poly3DCollection(triangles, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>mesh.set_edgecolor(<span class="st">'k'</span>)</span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>mesh.set_linewidth(<span class="fl">0.1</span>)</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="co"># Colorear el nudo según la FASE local</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>verts_indices <span class="op">=</span> (verts <span class="op">+</span> L<span class="op">/</span><span class="dv">2</span>) <span class="op">*</span> (N<span class="op">/</span>L)</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>verts_indices <span class="op">=</span> verts_indices.astype(<span class="bu">int</span>)</span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>verts_indices <span class="op">=</span> np.clip(verts_indices, <span class="dv">0</span>, N<span class="op">-</span><span class="dv">1</span>)</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>phases <span class="op">=</span> np.angle(Psi_field[verts_indices[:,<span class="dv">0</span>], verts_indices[:,<span class="dv">1</span>], verts_indices[:,<span class="dv">2</span>]])</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> plt.cm.hsv((phases <span class="op">+</span> np.pi) <span class="op">/</span> (<span class="dv">2</span><span class="op">*</span>np.pi))</span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>mesh.set_facecolor(colors)</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Coeficientes lineales: extraer coeficiente de epsilon</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>    B <span class="op">=</span> sp.simplify(sp.expand(g00_series).coeff(epsilon, <span class="dv">1</span>))</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    D <span class="op">=</span> sp.simplify(sp.expand(grr_series).coeff(epsilon, <span class="dv">1</span>))</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Coeficientes encontrados:"</span>)</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f" A = g00(0) = </span><span class="sc">{</span>A<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f" B = coef g00 (epsilon) = </span><span class="sc">{</span>B<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f" C = grr(0)  = </span><span class="sc">{</span>C<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f" D = coef grr (epsilon) = </span><span class="sc">{</span>D<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Comprobaciones y normalizaciones:</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Evitamos dividir por cero: A y C deben ser distintos de 0 para poder normalizar.</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Si cualquiera es 0, damos mensaje y devolvemos símbolo que indica degeneración.</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>    zero <span class="op">=</span> sp.Integer(<span class="dv">0</span>)</span>
 <span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>ax.add_collection3d(mesh)</span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>ax.set_xlim(<span class="op">-</span>L<span class="op">/</span><span class="dv">2</span>, L<span class="op">/</span><span class="dv">2</span>)</span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>ax.set_ylim(<span class="op">-</span>L<span class="op">/</span><span class="dv">2</span>, L<span class="op">/</span><span class="dv">2</span>)</span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>ax.set_zlim(<span class="op">-</span>L<span class="op">/</span><span class="dv">2</span>, L<span class="op">/</span><span class="dv">2</span>)</span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">"x"</span>)</span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">"y"</span>)</span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>ax.set_zlabel(<span class="st">"z"</span>)</span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="ss">f"3D Hopfion Structure (Charge Q=1)</span><span class="ch">\n</span><span class="ss">Density Isosurface colored by Phase"</span>)</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> sp.simplify(A) <span class="op">==</span> zero:</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">ERROR: A = g00(epsilon=0) es cero. No se puede normalizar temporalmente."</span>)</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"Sugerencia: revisar el valor simbólico de c_s (evitar c_s^2 = 1/2) o elegir otro gauge."</span>)</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> sp.nan</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> sp.simplify(C) <span class="op">==</span> zero:</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">ERROR: C = grr(epsilon=0) es cero. No se puede normalizar espacialmente."</span>)</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"Sugerencia: revisar parámetros del fondo."</span>)</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> sp.nan</span>
 <span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>ax.view_init(elev<span class="op">=</span><span class="dv">30</span>, azim<span class="op">=</span><span class="dv">45</span>)</span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Normalización independiente:</span></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>    <span class="co"># s_t : factor para normalizar g00 constante a -1  =&gt; s_t = -1 / A</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>    <span class="co"># s_x : factor para normalizar grr constante a +1  =&gt; s_x =  1 / C</span></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>    s_t <span class="op">=</span> sp.simplify(<span class="op">-</span><span class="dv">1</span> <span class="op">/</span> A)</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>    s_x <span class="op">=</span> sp.simplify(<span class="dv">1</span> <span class="op">/</span> C)</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Factores de normalización:</span><span class="ch">\n</span><span class="ss"> s_t (temporal) = </span><span class="sc">{</span>s_t<span class="sc">}</span><span class="ch">\n</span><span class="ss"> s_x (espacial) = </span><span class="sc">{</span>s_x<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Coeficientes normalizados lineales:</span></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>    B_norm <span class="op">=</span> sp.simplify(B <span class="op">*</span> s_t)</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>    D_norm <span class="op">=</span> sp.simplify(D <span class="op">*</span> s_x)</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Coeficientes lineales normalizados:</span><span class="ch">\n</span><span class="ss"> B_norm = </span><span class="sc">{</span>B_norm<span class="sc">}</span><span class="ch">\n</span><span class="ss"> D_norm = </span><span class="sc">{</span>D_norm<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>    <span class="co"># PPN identifica: g00 = -1 + 2 U  =&gt; coef temporal debería ser +2 (si epsilon = U)</span></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>    <span class="co"># y g_rr =  1 + 2 gamma U =&gt; gamma = (D_norm) / (2)  if B_norm == 2</span></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Pero mejor: gamma = (D_norm) / |B_norm|  (proporcionalidad general)</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>    gamma <span class="op">=</span> sp.simplify(D_norm <span class="op">/</span> sp.Abs(B_norm))</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Simplificar resultado</span></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>    gamma_simpl <span class="op">=</span> sp.simplify(sp.together(sp.factor(gamma)))</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">RESULTADO simbólico para gamma:</span><span class="ch">\n</span><span class="ss"> gamma = </span><span class="sc">{</span>gamma_simpl<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Evaluación: si gamma_simpl se puede simplificar a 1 por identidades algebraicas</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>    <span class="co"># devolvemos forma simplificada.</span></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> gamma_simpl</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>    gamma_val <span class="op">=</span> calculate_ppn_gamma_corrected()</span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">========================================"</span>)</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"RESULTADO FINAL (simbólico): GAMMA = </span><span class="sc">{</span>gamma_val<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"========================================"</span>)</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="05_hopfion_3d_files/figure-html/cell-2-output-1.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -879,5 +771,5 @@ window.Quarto = {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.dev/raulchiclano/Dynamic-Background-Hypothesis/blob/main/simulations/05_hopfion_3d.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.dev/raulchiclano/Dynamic-Background-Hypothesis/blob/main/simulations/08_ppn_gamma.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

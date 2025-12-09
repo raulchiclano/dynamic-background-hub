@@ -1,47 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://raulchiclano.es/blog/index.html</loc>
+    <lastmod>2025-12-09T14:53:36.292Z</lastmod>
+  </url>
+  <url>
     <loc>https://raulchiclano.es/theory/index.html</loc>
-    <lastmod>2025-12-07T16:23:06.681Z</lastmod>
+    <lastmod>2025-12-09T14:53:36.303Z</lastmod>
   </url>
   <url>
     <loc>https://raulchiclano.es/simulations/02_vortex_interaction.html</loc>
-    <lastmod>2025-12-07T16:23:06.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://raulchiclano.es/simulations/05_hopfion_3d.html</loc>
-    <lastmod>2025-12-07T16:23:06.680Z</lastmod>
-  </url>
-  <url>
-    <loc>https://raulchiclano.es/simulations/06_quantum_interference.html</loc>
-    <lastmod>2025-12-07T16:23:06.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://raulchiclano.es/simulations/01_vortex_stability.html</loc>
-    <lastmod>2025-12-07T16:23:06.673Z</lastmod>
-  </url>
-  <url>
-    <loc>https://raulchiclano.es/index.html</loc>
-    <lastmod>2025-12-07T16:23:06.672Z</lastmod>
-  </url>
-  <url>
-    <loc>https://raulchiclano.es/simulations/04_cosmology_soc.html</loc>
-    <lastmod>2025-12-07T16:23:06.677Z</lastmod>
-  </url>
-  <url>
-    <loc>https://raulchiclano.es/simulations/index.html</loc>
-    <lastmod>2025-12-07T16:23:06.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://raulchiclano.es/simulations/03_gravitational_lensing.html</loc>
-    <lastmod>2025-12-07T16:23:06.677Z</lastmod>
+    <lastmod>2025-12-09T14:53:36.297Z</lastmod>
   </url>
   <url>
     <loc>https://raulchiclano.es/simulations/07_einstein_tensor.html</loc>
-    <lastmod>2025-12-07T16:23:06.681Z</lastmod>
+    <lastmod>2025-12-09T14:53:36.303Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/simulations/03_gravitational_lensing.html</loc>
+    <lastmod>2025-12-09T14:53:36.298Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/simulations/09_mond_regime.html</loc>
+    <lastmod>2025-12-09T14:53:36.303Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/simulations/index.html</loc>
+    <lastmod>2025-12-09T14:53:36.303Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/simulations/04_cosmology_soc.html</loc>
+    <lastmod>2025-12-09T14:53:36.299Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/index.html</loc>
+    <lastmod>2025-12-09T14:53:36.294Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/simulations/01_vortex_stability.html</loc>
+    <lastmod>2025-12-09T14:53:36.295Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/simulations/06_quantum_interference.html</loc>
+    <lastmod>2025-12-09T14:53:36.303Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/simulations/10_solar_deflection.html</loc>
+    <lastmod>2025-12-09T14:53:36.303Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/simulations/05_hopfion_3d.html</loc>
+    <lastmod>2025-12-09T14:53:36.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/simulations/08_ppn_gamma.html</loc>
+    <lastmod>2025-12-09T14:53:36.303Z</lastmod>
   </url>
   <url>
     <loc>https://raulchiclano.es/about.html</loc>
-    <lastmod>2025-12-07T16:23:06.671Z</lastmod>
+    <lastmod>2025-12-09T14:53:36.292Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raulchiclano.es/blog/2025-11-24-einstein-test.html</loc>
+    <lastmod>2025-12-09T14:53:36.292Z</lastmod>
   </url>
 </urlset>
