@@ -48,6 +48,8 @@ website:
         - section: "Cosmology"
           contents:
             - simulations/04_cosmology_soc.ipynb
+            - simulations/11_cosmic_history.ipynb
+            - simulations/12_parameter_space.ipynb 
         - section: "Quantum Mechanics"
           contents:
             - simulations/06_quantum_interference.ipynb
