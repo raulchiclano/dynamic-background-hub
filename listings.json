@@ -8,6 +8,8 @@
   {
     "listing": "/simulations/index.html",
     "items": [
+      "/simulations/11_cosmic_history.html",
+      "/simulations/12_parameter_space.html",
       "/simulations/01_vortex_stability.html",
       "/simulations/02_vortex_interaction.html",
       "/simulations/03_gravitational_lensing.html",
