@@ -1,7 +1,7 @@
 ---
 title: "Theoretical Framework"
 author: "Raúl Chiclano"
-date: "2025-11-30"
+date: "2025-12-08"
 toc: true
 ---
 
@@ -26,40 +26,48 @@ $$ \Box \Psi + \alpha |\Psi|^2 \Psi + \beta |\Psi|^4 \Psi = 0 $$
 
 ---
 
-## 2. Emergent Gravity
+## 2. Emergent Gravity & Solar System Precision
 
 Gravity is not a fundamental force in this framework. It is an **effective description** of how excitations (phonons/photons) propagate through the inhomogeneous background.
 
-By linearizing the master equation around a background flow $v_\mu = \partial_\mu \theta$, we derive the **Acoustic Metric**:
+By linearizing the master equation around a background flow, we derive the **Acoustic Metric**:
 
 $$ g_{\mu\nu}^{\text{eff}} = \frac{\rho}{c_s} \left[ \eta_{\mu\nu} + \left( \frac{1}{c_s^2} - 1 \right) v_\mu v_\nu \right] $$
 
-### The Equivalence Principle
-Fluctuations do not "feel" the flat background $\eta_{\mu\nu}$; they are forced to follow the geodesics of $g_{\mu\nu}^{\text{eff}}$. Thus, **density gradients ($\nabla \rho$) manifest as spacetime curvature**.
+### The Post-Newtonian Success ($\gamma=1$)
+A critical test for any emergent gravity theory is the deflection of light. Our symbolic derivation confirms that density perturbations act as a universal conformal factor, yielding:
+
+$$ \gamma_{PPN} = \frac{g_{rr}^{(1)}}{g_{00}^{(1)}} = 1 $$
+
+This ensures that the model **reproduces General Relativity predictions** in the Solar System (Light Deflection, Shapiro Delay) without requiring complex screening mechanisms.
 
 ---
 
-## 3. The Newtonian Limit & Criticality
+## 3. Galactic Dynamics: The AQUAL Regime
 
-Does this metric reproduce Newton's Law?
-In the static limit ($v=0$), the derived gravitational potential $\Phi$ follows a Yukawa interaction:
+While the theory is Newtonian at high accelerations (Solar System), it naturally transitions to a modified gravity regime at low accelerations (Galactic outskirts).
 
-$$ \Phi(r) \propto \frac{e^{-r/\lambda}}{r} \quad \text{where} \quad \lambda \propto \frac{1}{\sqrt{|\alpha|}} $$
+We derived the effective Lagrangian for the gravitational potential $\theta$:
 
-### The Fine-Tuning Mechanism (SOC)
-Standard gravity ($1/r$) requires infinite range ($\lambda \to \infty$). This implies that the mass parameter must vanish ($\alpha \to 0$).
-We propose that the universe operates in a state of **Self-Organized Criticality (SOC)**:
-1.  **Cosmic Expansion** cools the background, driving $\alpha \to 0$.
-2.  **Gravitational Collapse** (Black Holes) heats the background, increasing $\alpha$.
-3.  The balance maintains the universe at the **critical point** of a phase transition, allowing long-range gravity to persist.
+$$ \mathcal{L}_{\text{eff}}(X) \propto c_1 X + c_2 X^2 + \dots \quad \text{where } X = (\partial \theta)^2 $$
+
+*   **AQUAL Behavior:** The presence of the non-linear term $X^2$ classifies the model as an **AQUAL (A Quadratic Lagrangian)** theory.
+*   **Dark Matter Mimicry:** This non-linearity increases the gravitational strength in regions of low gradients, providing a natural explanation for **flat rotation curves** without invoking particle Dark Matter.
 
 ---
 
-## 4. Cosmology and Dark Energy
+## 4. Cosmology: Thawing Quintessence
 
-The energy density of the vacuum is derived from the effective potential $V(\Psi)$:
+The energy density of the vacuum is derived from the effective potential $V(\Psi)$. Unlike a rigid Cosmological Constant, the pressure of the superfluid is dynamic.
 
-$$ \rho_{\text{vac}} = V_0 - \frac{\alpha^2}{4\beta} $$
+### The Hierarchy Resolution
+Dimensional analysis reveals that the mass parameter $\alpha$ required to explain Dark Energy ($\sim 10^{-62}$ Planck units) corresponds to a macroscopic stiffness of $\sim 10^8 \text{ m}^{-2}$. This huge value suppresses non-linear effects in the Solar System, resolving the **Hierarchy Problem** naturally.
 
-*   **Dark Energy:** The pressure of the fluid naturally leads to an equation of state $w \approx -1$, mimicking a Cosmological Constant.
-*   **The Hierarchy Problem:** The SOC mechanism explains why $\rho_{\text{vac}}$ is small but non-zero: it is dynamically tethered to the critical point of the phase transition.
+### Equation of State
+Our FLRW simulations predict a **Thawing Quintessence** scenario:
+1.  **Past ($z > 1$):** The field is frozen by Hubble friction, behaving as $\Lambda$ ($w = -1$).
+2.  **Present ($z < 1$):** The field begins to roll, causing $w(z)$ to deviate slightly from $-1$.
+
+$$ w_0 \gtrsim -1, \quad w_a < 0 $$
+
+This specific trajectory in the CPL phase space is a falsifiable prediction for upcoming surveys like Euclid.

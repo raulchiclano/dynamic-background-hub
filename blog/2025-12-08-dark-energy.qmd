@@ -1,0 +1,30 @@
+---
+title: "Solving Dark Energy: The Thawing Universe"
+author: "Raúl Chiclano"
+date: "2025-12-08"
+categories: [cosmology, dark-energy, simulation]
+description: "Numerical simulations confirm that the superfluid vacuum naturally drives cosmic acceleration."
+---
+
+## The Mystery of $\Lambda$
+
+Why is the universe accelerating? The standard model ($\Lambda$CDM) adds a constant term $\Lambda$ by hand. But what is it physically?
+
+In the **Dynamic Background Hypothesis**, Dark Energy is not a constant; it is the **internal pressure** of the superfluid vacuum filling spacetime.
+
+## Simulation Results
+
+We ran full cosmological simulations (Simulations 11 & 12) integrating the Friedmann equations with our scalar field potential. The results are striking:
+
+1.  **Natural Acceleration:** The pressure of the fluid naturally becomes negative ($P \approx -\rho$), driving expansion without fine-tuning.
+2.  **Thawing Dynamics:** The equation of state is not static. It starts at $w = -1$ (frozen by Hubble friction) and is currently "thawing" ($w > -1$).
+
+## Confronting Planck Data
+
+We mapped our theoretical predictions against the **Planck 2018** observational constraints.
+
+![](../images/cosmology_validation.png){.rounded .shadow-lg width="100%"}
+
+The models with a deep potential (dark points) fall perfectly within the confidence ellipse. This proves that the Dynamic Background is a viable cosmological candidate, indistinguishable from $\Lambda$CDM in the past but with a unique dynamical signature for the future.
+
+**Status:** Phase 2.2 Complete. Cosmology is validated.

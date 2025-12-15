@@ -25,7 +25,7 @@ website:
       - icon: github
         href: https://github.com/raulchiclano/Dynamic-Background-Hypothesis
       - icon: book
-        href: https://zenodo.org/doi/10.5281/zenodo.17748410
+        href: https://zenodo.org/doi/10.5281/zenodo.17714833
 
   # 2. NAVEGACIÓN LATERAL 
   sidebar:
@@ -36,23 +36,27 @@ website:
       contents:
         - href: simulations/index.qmd
           text: "Overview"
-        - section: "Matter & Forces"
+        
+        - section: "Part I: Microphysics"
           contents:
             - simulations/01_vortex_stability.ipynb
             - simulations/02_vortex_interaction.ipynb
             - simulations/05_hopfion_3d.ipynb
-        - section: "Gravity & Relativity"
+            - simulations/06_quantum_interference.ipynb
+
+        - section: "Part II: Gravity & MOND"
           contents:
             - simulations/03_gravitational_lensing.ipynb
+            - simulations/08_ppn_gamma.ipynb
+            - simulations/10_solar_deflection.ipynb
+            - simulations/09_mond_regime.ipynb
             - simulations/07_einstein_tensor.ipynb
-        - section: "Cosmology"
+
+        - section: "Part III: Cosmology"
           contents:
             - simulations/04_cosmology_soc.ipynb
             - simulations/11_cosmic_history.ipynb
-            - simulations/12_parameter_space.ipynb 
-        - section: "Quantum Mechanics"
-          contents:
-            - simulations/06_quantum_interference.ipynb
+            - simulations/12_parameter_space.ipynb
 
 format:
   html:

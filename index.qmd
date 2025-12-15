@@ -1,48 +1,50 @@
 ---
 title: "The Dynamic Background Hypothesis"
-subtitle: "Unifying Gravity, Matter, and Quantum Mechanics through Vacuum Hydrodynamics"
+subtitle: "An Effective Field Theory for Emergent Gravity and Dark Energy"
 page-layout: full
 ---
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-6}
-## The Concept
-What if spacetime is not an empty geometry, but a physical **superfluid**?
-What if particles are not point-like excitations, but **topological knots** in this fluid?
-What if gravity is just **refraction**?
+::: {.g-col-12 .g-col-md-7}
+## The Framework
+We present a unified physical model where spacetime, matter, and the dark sector emerge from the hydrodynamics of a single relativistic superfluid vacuum.
 
-This project explores a unified framework where General Relativity and Quantum Mechanics emerge as hydrodynamic limits of a single underlying medium: the **Dynamic Background**.
+By modeling the vacuum as a condensate with nonlinear saturation, we demonstrate that:
+1.  **Gravity** is the acoustic metric of the fluid's density fluctuations.
+2.  **Matter** consists of stable topological defects (vortices/knots).
+3.  **Dark Energy** is the internal pressure of the background field.
+
+This project provides rigorous numerical and symbolic validation of the hypothesis, bridging the gap between hydrodynamic intuition and precision cosmology.
 :::
 
-::: {.g-col-12 .g-col-md-6}
-<!-- Asegúrate de tener esta imagen en una carpeta 'images' o usa una ruta relativa correcta a tus resultados -->
-![](images/vortex_demo.png){.rounded .shadow-lg width="100%"}
-*Emergent forces between topological defects (Simulation 02)*
+::: {.g-col-12 .g-col-md-5}
+![](images/cosmology_validation.png){.rounded .shadow-lg width="100%"}
+*Theoretical predictions vs. Planck 2018 observational constraints (Simulation 12)*
 :::
 
 :::
 
-## Key Pillars of the Hypothesis
+## Validated Results (Phase 2)
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-### 1. Matter as Topology
-Particles are stable solitons (vortices and Hopfions) protected by topological charges.
-[Explore Simulations &rarr;](simulations/01_vortex_stability.html)
+### 1. Solar System Precision
+Symbolic derivation confirms the Post-Newtonian parameter **$\gamma = 1$**, matching General Relativity's light deflection without screening mechanisms.
+[See Derivation &rarr;](simulations/08_ppn_gamma.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 2. Emergent Gravity
-Curvature is an effective description of density gradients. Light bends due to refraction.
-[See Lensing &rarr;](simulations/03_gravitational_lensing.html)
+### 2. Dark Matter as AQUAL
+The effective Lagrangian naturally transitions to a non-linear **AQUAL regime** ($X^2$) at low accelerations, mimicking galactic rotation curves.
+[Explore MOND &rarr;](simulations/09_mond_regime.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 3. Quantum Hydrodynamics
-Wave-particle duality arises from the pilot-wave dynamics of the background fluid.
-[Watch Interference &rarr;](simulations/06_quantum_interference.html)
+### 3. Dark Energy Dynamics
+Cosmological simulations predict a **Thawing Quintessence** equation of state ($w_0 \approx -1$), fully consistent with Planck 2018 constraints.
+[View Cosmic History &rarr;](simulations/11_cosmic_history.html)
 :::
 
 :::
@@ -50,10 +52,10 @@ Wave-particle duality arises from the pilot-wave dynamics of the background flui
 ---
 
 ### Open Science Status
-This is a living research project. All code is open source and reproducible.
+All theoretical derivations and numerical simulations are open source.
 
 | Resource | Status | Link |
 | :--- | :--- | :--- |
-| **Paper** | Preprint Available | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17748410.svg)](https://doi.org/10.5281/zenodo.17748410) |
-| **Code** | v1.0 (Python) | [GitHub Repository](https://github.com/raulchiclano/Dynamic-Background-Hypothesis) |
-| **Validation** | Phase 1 Complete | [View Results](simulations/index.html) |
+| **Paper** | **Phase 2 Validated** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833) |
+| **Code** | **v2.0 (Python/SymPy)** | [GitHub Repository](https://github.com/raulchiclano/Dynamic-Background-Hypothesis) |
+| **Latest** | **Cosmology Added** | [View New Results](simulations/index.html) |
