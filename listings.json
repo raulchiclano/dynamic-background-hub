@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/2025-11-24-einstein-test.html"
-    ]
-  },
-  {
     "listing": "/simulations/index.html",
     "items": [
       "/simulations/11_cosmic_history.html",
@@ -20,6 +14,13 @@
       "/simulations/08_ppn_gamma.html",
       "/simulations/09_mond_regime.html",
       "/simulations/10_solar_deflection.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2025-12-08-dark-energy.html",
+      "/blog/2025-11-24-einstein-test.html"
     ]
   }
 ]

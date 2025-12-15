@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -115,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://zenodo.org/doi/10.5281/zenodo.17748410"> <i class="bi bi-book" role="img">
+    <a class="nav-link" href="https://zenodo.org/doi/10.5281/zenodo.17714833"> <i class="bi bi-book" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -135,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-pillars-of-the-hypothesis" id="toc-key-pillars-of-the-hypothesis" class="nav-link active" data-scroll-target="#key-pillars-of-the-hypothesis">Key Pillars of the Hypothesis</a>
+  <li><a href="#validated-results-phase-2" id="toc-validated-results-phase-2" class="nav-link active" data-scroll-target="#validated-results-phase-2">Validated Results (Phase 2)</a>
   <ul class="collapse">
   <li><a href="#open-science-status" id="toc-open-science-status" class="nav-link" data-scroll-target="#open-science-status">Open Science Status</a></li>
   </ul></li>
@@ -148,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">The Dynamic Background Hypothesis</h1>
-<p class="subtitle lead">Unifying Gravity, Matter, and Quantum Mechanics through Vacuum Hydrodynamics</p>
+<p class="subtitle lead">An Effective Field Theory for Emergent Gravity and Dark Energy</p>
 </div>
 
 
@@ -166,36 +195,36 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="grid">
-<section id="the-concept" class="level2 g-col-12 g-col-md-6">
-<h2 class="anchored" data-anchor-id="the-concept">The Concept</h2>
-<p>What if spacetime is not an empty geometry, but a physical <strong>superfluid</strong>? What if particles are not point-like excitations, but <strong>topological knots</strong> in this fluid? What if gravity is just <strong>refraction</strong>?</p>
-<p>This project explores a unified framework where General Relativity and Quantum Mechanics emerge as hydrodynamic limits of a single underlying medium: the <strong>Dynamic Background</strong>.</p>
+<section id="the-framework" class="level2 g-col-12 g-col-md-7">
+<h2 class="anchored" data-anchor-id="the-framework">The Framework</h2>
+<p>We present a unified physical model where spacetime, matter, and the dark sector emerge from the hydrodynamics of a single relativistic superfluid vacuum.</p>
+<p>By modeling the vacuum as a condensate with nonlinear saturation, we demonstrate that: 1. <strong>Gravity</strong> is the acoustic metric of the fluid’s density fluctuations. 2. <strong>Matter</strong> consists of stable topological defects (vortices/knots). 3. <strong>Dark Energy</strong> is the internal pressure of the background field.</p>
+<p>This project provides rigorous numerical and symbolic validation of the hypothesis, bridging the gap between hydrodynamic intuition and precision cosmology.</p>
 </section>
-<div class="g-col-12 g-col-md-6">
-<!-- Asegúrate de tener esta imagen en una carpeta 'images' o usa una ruta relativa correcta a tus resultados -->
-<p><img src="images/vortex_demo.png" class="rounded shadow-lg img-fluid" style="width:100.0%"> <em>Emergent forces between topological defects (Simulation 02)</em></p>
+<div class="g-col-12 g-col-md-5">
+<p><img src="images/cosmology_validation.png" class="rounded shadow-lg img-fluid" style="width:100.0%"> <em>Theoretical predictions vs.&nbsp;Planck 2018 observational constraints (Simulation 12)</em></p>
 </div>
 </div>
-<section id="key-pillars-of-the-hypothesis" class="level2">
-<h2 class="anchored" data-anchor-id="key-pillars-of-the-hypothesis">Key Pillars of the Hypothesis</h2>
+<section id="validated-results-phase-2" class="level2">
+<h2 class="anchored" data-anchor-id="validated-results-phase-2">Validated Results (Phase 2)</h2>
 <div class="grid">
-<section id="matter-as-topology" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="matter-as-topology">1. Matter as Topology</h3>
-<p>Particles are stable solitons (vortices and Hopfions) protected by topological charges. <a href="simulations/01_vortex_stability.html">Explore Simulations →</a></p>
+<section id="solar-system-precision" class="level3 g-col-12 g-col-md-4">
+<h3 class="anchored" data-anchor-id="solar-system-precision">1. Solar System Precision</h3>
+<p>Symbolic derivation confirms the Post-Newtonian parameter <strong><span class="math inline">\(\gamma = 1\)</span></strong>, matching General Relativity’s light deflection without screening mechanisms. <a href="simulations/08_ppn_gamma.html">See Derivation →</a></p>
 </section>
-<section id="emergent-gravity" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="emergent-gravity">2. Emergent Gravity</h3>
-<p>Curvature is an effective description of density gradients. Light bends due to refraction. <a href="simulations/03_gravitational_lensing.html">See Lensing →</a></p>
+<section id="dark-matter-as-aqual" class="level3 g-col-12 g-col-md-4">
+<h3 class="anchored" data-anchor-id="dark-matter-as-aqual">2. Dark Matter as AQUAL</h3>
+<p>The effective Lagrangian naturally transitions to a non-linear <strong>AQUAL regime</strong> (<span class="math inline">\(X^2\)</span>) at low accelerations, mimicking galactic rotation curves. <a href="simulations/09_mond_regime.html">Explore MOND →</a></p>
 </section>
-<section id="quantum-hydrodynamics" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="quantum-hydrodynamics">3. Quantum Hydrodynamics</h3>
-<p>Wave-particle duality arises from the pilot-wave dynamics of the background fluid. <a href="simulations/06_quantum_interference.html">Watch Interference →</a></p>
+<section id="dark-energy-dynamics" class="level3 g-col-12 g-col-md-4">
+<h3 class="anchored" data-anchor-id="dark-energy-dynamics">3. Dark Energy Dynamics</h3>
+<p>Cosmological simulations predict a <strong>Thawing Quintessence</strong> equation of state (<span class="math inline">\(w_0 \approx -1\)</span>), fully consistent with Planck 2018 constraints. <a href="simulations/11_cosmic_history.html">View Cosmic History →</a></p>
 </section>
 </div>
 <hr>
 <section id="open-science-status" class="level3">
 <h3 class="anchored" data-anchor-id="open-science-status">Open Science Status</h3>
-<p>This is a living research project. All code is open source and reproducible.</p>
+<p>All theoretical derivations and numerical simulations are open source.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -207,18 +236,18 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>Paper</strong></td>
-<td style="text-align: left;">Preprint Available</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5281/zenodo.17748410"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17748410.svg" class="img-fluid" alt="DOI"></a></td>
+<td style="text-align: left;"><strong>Phase 2 Validated</strong></td>
+<td style="text-align: left;"><a href="https://doi.org/10.5281/zenodo.17714833"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg" class="img-fluid" alt="DOI"></a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>Code</strong></td>
-<td style="text-align: left;">v1.0 (Python)</td>
+<td style="text-align: left;"><strong>v2.0 (Python/SymPy)</strong></td>
 <td style="text-align: left;"><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis">GitHub Repository</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Validation</strong></td>
-<td style="text-align: left;">Phase 1 Complete</td>
-<td style="text-align: left;"><a href="simulations/index.html">View Results</a></td>
+<td style="text-align: left;"><strong>Latest</strong></td>
+<td style="text-align: left;"><strong>Cosmology Added</strong></td>
+<td style="text-align: left;"><a href="simulations/index.html">View New Results</a></td>
 </tr>
 </tbody>
 </table>
