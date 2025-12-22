@@ -44,6 +44,7 @@ website:
             - simulations/05_hopfion_3d.ipynb
             - simulations/06_quantum_interference.ipynb
             - simulations/13_fermionic_matter.ipynb 
+            - simulations/16_topological_fermions.ipynb # NUEVA: Fase de Berry
 
         - section: "Part II: Gravity & MOND"
           contents:
@@ -52,6 +53,8 @@ website:
             - simulations/10_solar_deflection.ipynb
             - simulations/09_mond_regime.ipynb
             - simulations/07_einstein_tensor.ipynb
+            - simulations/14_field_equations.ipynb # NUEVA: Acción v4
+            - simulations/15_mond_transition.ipynb # NUEVA: Escala a0
 
         - section: "Part III: Cosmology"
           contents:

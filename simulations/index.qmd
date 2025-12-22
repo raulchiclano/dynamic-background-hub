@@ -1,8 +1,9 @@
 ---
 title: "Simulation Lab"
+subtitle: "Formal Validation Suite (v3.5)"
 listing:
   contents: "*.ipynb"
-  type: grid          # O prueba 'default' (lista) o 'table'
+  type: grid          
   sort: "date desc"
   categories: true
   sort-ui: false
@@ -12,8 +13,22 @@ page-layout: full
 title-block-banner: true
 ---
 
-# Computational Proof of Concept
+# Formal Validation of the Dynamic Background
 
-Here we present the numerical experiments validating the core tenets of the Dynamic Background Hypothesis. All simulations are solved using the **Split-Step Fourier Method** for the Gross-Pitaevskii Equation.
+This laboratory contains the computational core of the DBH. We have transitioned from a "Proof of Concept" to a **Formal Validation Suite**, where the hypothesis is subjected to rigorous symbolic and numerical testing.
 
-## Core Experiments
+## Methodology
+Our validation framework operates on two complementary levels:
+
+1.  **Symbolic Tensor Calculus:** Using `SymPy` to derive exact field equations, energy-momentum tensors, and the analytical emergence of the MOND scale ($a_0$).
+2.  **Numerical Hydrodynamics:** Solving the relativistic Gross-Pitaevskii and FLRW equations using the **Split-Step Fourier Method** and high-precision ODE integrators.
+
+## Key Milestones in v3.5
+*   **Microphysics:** Emergence of spin-1/2 statistics from $Z_2$ nematic symmetry (Berry Phase $\pi$).
+*   **Gravity:** Analytical derivation of the galactic transition scale $\rho_c = \sigma^2/4\beta^2$.
+*   **Cosmology:** Mapping of the parameter space against Planck 2018 + BAO + SNe constraints.
+
+---
+
+## All Simulations
+Explore the individual notebooks below for detailed derivations and interactive code.
