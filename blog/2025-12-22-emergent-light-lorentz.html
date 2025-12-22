@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Raúl Chiclano">
+<meta name="dcterms.date" content="2025-12-22">
+<meta name="description" content="We have successfully derived Maxwell’s equations and Lorentz Invariance as emergent properties of the vacuum’s hydrodynamics.">
 
-<title>The Dynamic Background Hypothesis – Dynamic Background Hypothesis</title>
+<title>Turning on the Lights: Emergent Maxwell and the Rigidity of Spacetime – Dynamic Background Hypothesis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-597958c53c93a607afca12fd375c57ed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e15e3ebda6ea475b88b6780bf7a8bf4f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-597958c53c93a607afca12fd375c57ed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e15e3ebda6ea475b88b6780bf7a8bf4f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -100,7 +103,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -110,7 +113,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Dynamic Background Hypothesis</span>
     </a>
   </div>
@@ -121,19 +124,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./theory/index.html"> 
+    <a class="nav-link" href="../theory/index.html"> 
 <span class="menu-text">Theory</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./simulations/index.html"> 
+    <a class="nav-link" href="../simulations/index.html"> 
 <span class="menu-text">Simulations Lab</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../blog/index.html"> 
 <span class="menu-text">DevLog</span></a>
   </li>  
 </ul>
@@ -156,7 +159,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -164,27 +167,50 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-breakthroughs-v4.0-alpha-update" id="toc-key-breakthroughs-v4.0-alpha-update" class="nav-link active" data-scroll-target="#key-breakthroughs-v4.0-alpha-update">Key Breakthroughs (v4.0 Alpha Update)</a>
-  <ul class="collapse">
-  <li><a href="#open-science-status" id="toc-open-science-status" class="nav-link" data-scroll-target="#open-science-status">Open Science Status</a></li>
-  </ul></li>
+  <li><a href="#the-spacetime-update-beyond-the-v3.5-milestone" id="toc-the-spacetime-update-beyond-the-v3.5-milestone" class="nav-link active" data-scroll-target="#the-spacetime-update-beyond-the-v3.5-milestone">The Spacetime Update: Beyond the v3.5 Milestone</a></li>
+  <li><a href="#light-as-vacuum-vorticity-sim-17" id="toc-light-as-vacuum-vorticity-sim-17" class="nav-link" data-scroll-target="#light-as-vacuum-vorticity-sim-17">1. Light as Vacuum Vorticity (Sim 17)</a></li>
+  <li><a href="#breaking-the-circularity-deriving-c-sim-19" id="toc-breaking-the-circularity-deriving-c-sim-19" class="nav-link" data-scroll-target="#breaking-the-circularity-deriving-c-sim-19">2. Breaking the Circularity: Deriving <span class="math inline">\(c\)</span> (Sim 19)</a></li>
+  <li><a href="#the-rigidity-of-einstein-lorentz-restoration-sim-20" id="toc-the-rigidity-of-einstein-lorentz-restoration-sim-20" class="nav-link" data-scroll-target="#the-rigidity-of-einstein-lorentz-restoration-sim-20">3. The Rigidity of Einstein: Lorentz Restoration (Sim 20)</a></li>
+  <li><a href="#the-road-to-v4.0-the-grand-unification" id="toc-the-road-to-v4.0-the-grand-unification" class="nav-link" data-scroll-target="#the-road-to-v4.0-the-grand-unification">The Road to v4.0: The Grand Unification</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/edit/main/blog/2025-12-22-emergent-light-lorentz.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Dynamic Background Hypothesis</h1>
-<p class="subtitle lead">A Pre-Geometric Framework for Emergent Gravity, Matter, and the Dark Sector</p>
+<h1 class="title">Turning on the Lights: Emergent Maxwell and the Rigidity of Spacetime</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">theory</div>
+    <div class="quarto-category">light</div>
+    <div class="quarto-category">relativity</div>
+    <div class="quarto-category">v4.0</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    We have successfully derived Maxwell’s equations and Lorentz Invariance as emergent properties of the vacuum’s hydrodynamics.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page-left">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Raúl Chiclano </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 22, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -194,70 +220,40 @@ window.Quarto = {
 </header>
 
 
-<div class="grid">
-<section id="the-framework" class="level2 g-col-12 g-col-md-7">
-<h2 class="anchored" data-anchor-id="the-framework">The Framework</h2>
-<p>We present a unified physical model where spacetime, matter, and the dark sector emerge from the hydrodynamics of a single <strong>relativistic nematic superfluid vacuum</strong>.</p>
-<p>By modeling the vacuum as a pre-geometric sustrate with nonlinear saturation and <span class="math inline">\(Z_2\)</span> symmetry, we demonstrate that: 1. <strong>Gravity</strong> is the acoustic metric of the fluid’s density fluctuations. 2. <strong>Matter</strong> consists of stable topological defects (fermionic vortices). 3. <strong>Light &amp; Forces</strong> are collective torsional modes (vorticity) of the background. 4. <strong>Spacetime</strong> is an emergent equilibrium state governed by vacuum stiffness.</p>
-<p>This project provides rigorous numerical and symbolic validation, bridging the gap between hydrodynamic intuition and the Standard Model.</p>
+<section id="the-spacetime-update-beyond-the-v3.5-milestone" class="level2">
+<h2 class="anchored" data-anchor-id="the-spacetime-update-beyond-the-v3.5-milestone">The Spacetime Update: Beyond the v3.5 Milestone</h2>
+<p>If the v3.5 update was about the “actors” (Fermions) and the “script” (MOND), the new results from our latest simulations (Sim 17-20) are about the <strong>“stage”</strong> (Spacetime) and the <strong>“messenger”</strong> (Light).</p>
+<p>We have successfully addressed the two most common criticisms of emergent gravity: <em>Where does the speed of light come from?</em> and <em>Why is Lorentz Invariance so precise?</em></p>
 </section>
-<div class="g-col-12 g-col-md-5">
-<p><img src="images/cosmology_validation.png" class="rounded shadow-lg img-fluid" style="width:100.0%"> <em>Theoretical predictions vs.&nbsp;Planck 2018 observational constraints (Simulation 12)</em></p>
-</div>
-</div>
-<section id="key-breakthroughs-v4.0-alpha-update" class="level2">
-<h2 class="anchored" data-anchor-id="key-breakthroughs-v4.0-alpha-update">Key Breakthroughs (v4.0 Alpha Update)</h2>
-<div class="grid">
-<section id="solar-system-precision" class="level3 g-col-12 g-col-md-3">
-<h3 class="anchored" data-anchor-id="solar-system-precision">1. Solar System Precision</h3>
-<p>Symbolic derivation confirms the Post-Newtonian parameter <strong><span class="math inline">\(\gamma = 1\)</span></strong>, matching General Relativity’s light deflection without screening. <a href="simulations/14_field_equations.html">See Derivation →</a></p>
+<section id="light-as-vacuum-vorticity-sim-17" class="level2">
+<h2 class="anchored" data-anchor-id="light-as-vacuum-vorticity-sim-17">1. Light as Vacuum Vorticity (Sim 17)</h2>
+<p>In the Dynamic Background Hypothesis, light is not a separate entity. It is the <strong>vorticity of the vacuum flow</strong>. By identifying the electromagnetic potential <span class="math inline">\(A_\mu\)</span> with the velocity of the superfluid, we have shown that:</p>
+<ul>
+<li><strong>Maxwell’s Equations</strong> are not fundamental laws, but topological necessities.</li>
+<li>The <strong>Bianchi Identity</strong> (<span class="math inline">\(\partial_{[\mu} F_{\nu\rho]} = 0\)</span>) emerges naturally, explaining why there are no magnetic monopoles.</li>
+<li><strong>Electric Charge</strong> is simply the measure of how much a topological defect “stresses” the surrounding fluid.</li>
+</ul>
+<p><a href="../simulations/17_gauge_emergence.html">Explore the Gauge Emergence →</a></p>
 </section>
-<section id="deriving-the-mond-scale" class="level3 g-col-12 g-col-md-3">
-<h3 class="anchored" data-anchor-id="deriving-the-mond-scale">2. Deriving the MOND Scale</h3>
-<p>The galactic acceleration scale <span class="math inline">\(a_0\)</span> is no longer a free parameter; it is <strong>derived</strong> from the vacuum’s stiffness and fluctuation strength. <a href="simulations/15_mond_transition.html">Explore <span class="math inline">\(a_0\)</span> →</a></p>
+<section id="breaking-the-circularity-deriving-c-sim-19" class="level2">
+<h2 class="anchored" data-anchor-id="breaking-the-circularity-deriving-c-sim-19">2. Breaking the Circularity: Deriving <span class="math inline">\(c\)</span> (Sim 19)</h2>
+<p>A major breakthrough in this phase is the derivation of the <strong>speed of light (<span class="math inline">\(c\)</span>)</strong> without assuming relativity from the start. By treating the vacuum as a classical compressible fluid, we found that:</p>
+<p><span class="math display">\[ c^2 = \frac{\partial P}{\partial \rho} \]</span></p>
+<p>The speed of light is, quite literally, the <strong>speed of sound of the vacuum</strong>. In the low-energy limit (IR), the relation between frequency and wavelength becomes perfectly linear (<span class="math inline">\(\omega = ck\)</span>), creating the “illusion” of a relativistic cono of light.</p>
 </section>
-<section id="origin-of-fermions" class="level3 g-col-12 g-col-md-3">
-<h3 class="anchored" data-anchor-id="origin-of-fermions">3. Origin of Fermions</h3>
-<p>We demonstrate how <strong>spin-1/2 statistics</strong> emerge from the nematic symmetry of the vacuum, identifying matter as a topological “twist” in space. <a href="simulations/16_topological_fermions.html">View Berry Phase →</a></p>
+<section id="the-rigidity-of-einstein-lorentz-restoration-sim-20" class="level2">
+<h2 class="anchored" data-anchor-id="the-rigidity-of-einstein-lorentz-restoration-sim-20">3. The Rigidity of Einstein: Lorentz Restoration (Sim 20)</h2>
+<p>Why does the speed of light seem so “absolute”? Our latest stability test (Sim 20) revealed the <strong>Lorentz Restoration Module (<span class="math inline">\(K_L\)</span>)</strong>.</p>
+<p>We discovered that the Lorentz-invariant state (<span class="math inline">\(c=1\)</span>) is a <strong>global minimum of energy</strong>. Any attempt to break this symmetry (to change the speed of light) is met with a massive restoration pressure proportional to the vacuum’s stiffness <span class="math inline">\(\beta\)</span>.</p>
+<p>Spacetime behaves like an ultra-rigid crystal; it is so stiff that any violation of Lorentz invariance is suppressed by the Planck scale, explaining why Einstein’s equations work with such incredible precision in our daily lives.</p>
 </section>
-<section id="emergent-light-lorentz" class="level3 g-col-12 g-col-md-3">
-<h3 class="anchored" data-anchor-id="emergent-light-lorentz">4. Emergent Light &amp; Lorentz</h3>
-<p>We derive <strong>Maxwell’s Equations</strong> from vacuum vorticity and prove that <strong>Lorentz Invariance</strong> is a minimum energy state of the sustrate. <a href="simulations/20_lorentz_restoration.html">View Spacetime Structure →</a></p>
-</section>
-</div>
-<hr>
-<section id="open-science-status" class="level3">
-<h3 class="anchored" data-anchor-id="open-science-status">Open Science Status</h3>
-<p>All theoretical derivations and numerical simulations are open source.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Resource</th>
-<th style="text-align: left;">Status</th>
-<th style="text-align: left;">Link</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Paper</strong></td>
-<td style="text-align: left;"><strong>v3.5 (Technical Update)</strong></td>
-<td style="text-align: left;"><a href="https://doi.org/10.5281/zenodo.17714833"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg" class="img-fluid" alt="DOI"></a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Code</strong></td>
-<td style="text-align: left;"><strong>v4.0 Alpha (Python/SymPy)</strong></td>
-<td style="text-align: left;"><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis">GitHub Repository</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Latest</strong></td>
-<td style="text-align: left;"><strong>Lorentz &amp; Maxwell Emergence</strong></td>
-<td style="text-align: left;"><a href="simulations/index.html">Explore Validation Suite</a></td>
-</tr>
-</tbody>
-</table>
+<section id="the-road-to-v4.0-the-grand-unification" class="level2">
+<h2 class="anchored" data-anchor-id="the-road-to-v4.0-the-grand-unification">The Road to v4.0: The Grand Unification</h2>
+<p>We have now unified: 1. <strong>Gravity</strong> (Acoustic Metric / MOND). 2. <strong>Matter</strong> (Topological Fermions). 3. <strong>Light</strong> (Vacuum Vorticity). 4. <strong>Relativity</strong> (Emergent Lorentz Equilibrium).</p>
+<p>The “Skeleton of Reality” is complete. Our next and final frontier will be the <strong>Nuclear Forces (SU(2)/SU(3))</strong>, exploring how the “braiding” of these vacuum twists creates the complexity of the Standard Model.</p>
+<p><strong>Status:</strong> Phase 4 (v4.0 Alpha) validation complete. The Dynamic Background is no longer just a hypothesis; it is a consistent pre-geometric framework.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -666,5 +662,5 @@ window.Quarto = {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/edit/main/blog/2025-12-22-emergent-light-lorentz.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

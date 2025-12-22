@@ -80,8 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -201,7 +202,6 @@ window.Quarto = {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Simulation Lab</h1>
-            <p class="subtitle lead">Formal Validation Suite (v3.5)</p>
                       </div>
   </div>
     
@@ -354,6 +354,41 @@ window.Quarto = {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Part IV: Spacetime &amp; Gauge</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulations/17_gauge_emergence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Emergence of Gauge Fields: Maxwell from Vorticity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulations/18_spacetime_skeleton.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Skeleton of Reality: Tetrads and Clifford Algebra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulations/19_dispersion_relation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dispersion Relations: Deriving Lorentz from Compressibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulations/20_lorentz_restoration.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Restoration Mechanism: The Energy Cost of Breaking Lorentz</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -364,15 +399,20 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#formal-validation-of-the-dynamic-background" id="toc-formal-validation-of-the-dynamic-background" class="nav-link active" data-scroll-target="#formal-validation-of-the-dynamic-background">Formal Validation of the Dynamic Background</a>
+  <li><a href="#computational-proof-of-concept" id="toc-computational-proof-of-concept" class="nav-link active" data-scroll-target="#computational-proof-of-concept">Computational Proof of Concept</a>
   <ul class="collapse">
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
-  <li><a href="#key-milestones-in-v3.5" id="toc-key-milestones-in-v3.5" class="nav-link" data-scroll-target="#key-milestones-in-v3.5">Key Milestones in v3.5</a></li>
+  <li><a href="#research-pillars" id="toc-research-pillars" class="nav-link" data-scroll-target="#research-pillars">Research Pillars</a>
+  <ul class="collapse">
+  <li><a href="#microphysics-matter" id="toc-microphysics-matter" class="nav-link" data-scroll-target="#microphysics-matter">1. Microphysics &amp; Matter</a></li>
+  <li><a href="#emergent-gravity-mond" id="toc-emergent-gravity-mond" class="nav-link" data-scroll-target="#emergent-gravity-mond">2. Emergent Gravity &amp; MOND</a></li>
+  <li><a href="#spacetime-structure-gauge-fields" id="toc-spacetime-structure-gauge-fields" class="nav-link" data-scroll-target="#spacetime-structure-gauge-fields">3. Spacetime Structure &amp; Gauge Fields</a></li>
+  </ul></li>
+  <li><a href="#technical-note" id="toc-technical-note" class="nav-link" data-scroll-target="#technical-note">Technical Note</a></li>
   <li><a href="#all-simulations" id="toc-all-simulations" class="nav-link" data-scroll-target="#all-simulations">All Simulations</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/edit/main/simulations/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(16)</span></div><div class="category" data-category="M2Q=">3d <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YW5hbHl0aWNhbC1kZXJpdmF0aW9u">analytical-derivation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXF1YWw=">aqual <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29zbW9sb2d5">cosmology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y3Bs">cpl <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGFyay1lbmVyZ3k=">dark-energy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZGFyay1tYXR0ZXI=">dark-matter <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZHluYW1pY3M=">dynamics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZmVybWlvbnM=">fermions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZmllbGQtdGhlb3J5">field-theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Zm9yY2Vz">forces <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3Jhdml0eQ==">gravity <span class="quarto-category-count">(4)</span></div><div class="category" data-category="aGllcmFyY2h5LXByb2JsZW0=">hierarchy-problem <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWF0aGVtYXRpY3M=">mathematics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWF0dGVy">matter <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bW9kaWZpZWQtZ3Jhdml0eQ==">modified-gravity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9uZA==">mond <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b2JzZXJ2YXRpb25z">observations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGlsb3Qtd2F2ZQ==">pilot-wave <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cXVhbnR1bS1tZWNoYW5pY3M=">quantum-mechanics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVsYXRpdml0eQ==">relativity <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c29sYXItc3lzdGVt">solar-system <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3Bpbg==">spin <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3ltYm9saWM=">symbolic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dG9wb2xvZ3k=">topology <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="M2Q=">3d <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YW5hbHl0aWNhbC1kZXJpdmF0aW9u">analytical-derivation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXF1YWw=">aqual <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ym9nb2xpdWJvdg==">bogoliubov <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29zbW9sb2d5">cosmology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y3Bs">cpl <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGFyay1lbmVyZ3k=">dark-energy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZGFyay1tYXR0ZXI=">dark-matter <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZHluYW1pY3M=">dynamics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZWxlY3Ryb21hZ25ldGlzbQ==">electromagnetism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZmVybWlvbnM=">fermions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZmllbGQtdGhlb3J5">field-theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Zm9yY2Vz">forces <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2F1Z2UtdGhlb3J5">gauge-theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2VvbWV0cnk=">geometry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3Jhdml0eQ==">gravity <span class="quarto-category-count">(4)</span></div><div class="category" data-category="aGllcmFyY2h5LXByb2JsZW0=">hierarchy-problem <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aHlkcm9keW5hbWljcw==">hydrodynamics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bG9yZW50eg==">lorentz <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWF0aGVtYXRpY3M=">mathematics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWF0dGVy">matter <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bW9kaWZpZWQtZ3Jhdml0eQ==">modified-gravity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9uZA==">mond <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b2JzZXJ2YXRpb25z">observations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGlsb3Qtd2F2ZQ==">pilot-wave <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGxhbmNrLXNjYWxl">planck-scale <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cXVhbnR1bS1tZWNoYW5pY3M=">quantum-mechanics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVsYXRpdml0eQ==">relativity <span class="quarto-category-count">(5)</span></div><div class="category" data-category="c29sYXItc3lzdGVt">solar-system <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3Bpbg==">spin <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3RhYmlsaXR5">stability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3ltYm9saWM=">symbolic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGV0cmFkcw==">tetrads <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dG9wb2xvZ3k=">topology <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
@@ -380,29 +420,32 @@ window.Quarto = {
 
 
 
-<section id="formal-validation-of-the-dynamic-background" class="level1">
-<h1>Formal Validation of the Dynamic Background</h1>
-<p>This laboratory contains the computational core of the DBH. We have transitioned from a “Proof of Concept” to a <strong>Formal Validation Suite</strong>, where the hypothesis is subjected to rigorous symbolic and numerical testing.</p>
-<section id="methodology" class="level2">
-<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
-<p>Our validation framework operates on two complementary levels:</p>
-<ol type="1">
-<li><strong>Symbolic Tensor Calculus:</strong> Using <code>SymPy</code> to derive exact field equations, energy-momentum tensors, and the analytical emergence of the MOND scale (<span class="math inline">\(a_0\)</span>).</li>
-<li><strong>Numerical Hydrodynamics:</strong> Solving the relativistic Gross-Pitaevskii and FLRW equations using the <strong>Split-Step Fourier Method</strong> and high-precision ODE integrators.</li>
-</ol>
+<section id="computational-proof-of-concept" class="level1">
+<h1>Computational Proof of Concept</h1>
+<p>Welcome to the <strong>Simulation Lab</strong>. This repository contains the numerical and symbolic experiments validating the core tenets of the <strong>Dynamic Background Hypothesis (DBH)</strong>.</p>
+<p>Unlike traditional “Dark Sector” models, the DBH provides the “receipts” for its claims through open-source code. From the emergence of the MOND scale to the topological origin of fermions and the restoration of Lorentz invariance, these notebooks bridge the gap between abstract theory and physical reality.</p>
+<section id="research-pillars" class="level2">
+<h2 class="anchored" data-anchor-id="research-pillars">Research Pillars</h2>
+<section id="microphysics-matter" class="level3">
+<h3 class="anchored" data-anchor-id="microphysics-matter">1. Microphysics &amp; Matter</h3>
+<p>We explore how elementary particles emerge as topological defects (vortices and hopfions) in a nematic superfluid. * <strong>Key Breakthrough:</strong> The derivation of the <strong>Berry Phase (<span class="math inline">\(\pi\)</span>)</strong>, proving the fermionic nature of vacuum defects.</p>
 </section>
-<section id="key-milestones-in-v3.5" class="level2">
-<h2 class="anchored" data-anchor-id="key-milestones-in-v3.5">Key Milestones in v3.5</h2>
-<ul>
-<li><strong>Microphysics:</strong> Emergence of spin-1/2 statistics from <span class="math inline">\(Z_2\)</span> nematic symmetry (Berry Phase <span class="math inline">\(\pi\)</span>).</li>
-<li><strong>Gravity:</strong> Analytical derivation of the galactic transition scale <span class="math inline">\(\rho_c = \sigma^2/4\beta^2\)</span>.</li>
-<li><strong>Cosmology:</strong> Mapping of the parameter space against Planck 2018 + BAO + SNe constraints.</li>
-</ul>
+<section id="emergent-gravity-mond" class="level3">
+<h3 class="anchored" data-anchor-id="emergent-gravity-mond">2. Emergent Gravity &amp; MOND</h3>
+<p>We derive the laws of gravitation not as fundamental postulates, but as the hydrodynamics of the vacuum. * <strong>Key Breakthrough:</strong> The analytical derivation of the <strong>MOND scale (<span class="math inline">\(a_0\)</span>)</strong> from the vacuum’s unified potential (Action v4).</p>
+</section>
+<section id="spacetime-structure-gauge-fields" class="level3">
+<h3 class="anchored" data-anchor-id="spacetime-structure-gauge-fields">3. Spacetime Structure &amp; Gauge Fields</h3>
+<p>We demonstrate how the “stage” of the universe—spacetime itself—and the forces that inhabit it (Electromagnetism) are collective modes of the sustrate. * <strong>Key Breakthrough:</strong> The derivation of <strong>Lorentz Invariance</strong> as a minimum energy state and <strong>Maxwell’s Equations</strong> from vacuum vorticity.</p>
+</section>
+</section>
+<section id="technical-note" class="level2">
+<h2 class="anchored" data-anchor-id="technical-note">Technical Note</h2>
+<p>Derivations are performed using <code>SymPy</code> for exact symbolic tensor calculus and <code>NumPy/SciPy</code> for numerical integrations of the Friedmann and Gross-Pitaevskii equations.</p>
 <hr>
 </section>
 <section id="all-simulations" class="level2">
 <h2 class="anchored" data-anchor-id="all-simulations">All Simulations</h2>
-<p>Explore the individual notebooks below for detailed derivations and interactive code.</p>
 
 
 
@@ -410,15 +453,168 @@ window.Quarto = {
 </section>
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bWF0dGVyJTJDdG9wb2xvZ3klMkNzcGlu" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766389382036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
+<div class="g-col-1" data-index="0" data-categories="ZWxlY3Ryb21hZ25ldGlzbSUyQ2dhdWdlLXRoZW9yeSUyQ2h5ZHJvZHluYW1pY3M=" data-listing-date-sort="1766361600000" data-listing-file-modified-sort="1766440663788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="308">
+<a href="../simulations/17_gauge_emergence.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Emergence of Gauge Fields: Maxwell from Vorticity
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWxlY3Ryb21hZ25ldGlzbQ=='); return false;">electromagnetism</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2F1Z2UtdGhlb3J5'); return false;">gauge-theory</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aHlkcm9keW5hbWljcw=='); return false;">hydrodynamics</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Deriving Maxwell’s equations from the vorticity of the pre-geometric vacuum.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Raúl Chiclano
+</div>
+<div class="listing-date">
+Dec 22, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Z2VvbWV0cnklMkNyZWxhdGl2aXR5JTJDdGV0cmFkcw==" data-listing-date-sort="1766361600000" data-listing-file-modified-sort="1766440663788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="391">
+<a href="../simulations/18_spacetime_skeleton.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Skeleton of Reality: Tetrads and Clifford Algebra
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VvbWV0cnk='); return false;">geometry</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRpdml0eQ=='); return false;">relativity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dGV0cmFkcw=='); return false;">tetrads</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Deriving the 4D spacetime structure from the local orientation of the nematic vacuum.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Raúl Chiclano
+</div>
+<div class="listing-date">
+Dec 22, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="aHlkcm9keW5hbWljcyUyQ3JlbGF0aXZpdHklMkNib2dvbGl1Ym92" data-listing-date-sort="1766361600000" data-listing-file-modified-sort="1766440663788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
+<a href="../simulations/19_dispersion_relation.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dispersion Relations: Deriving Lorentz from Compressibility
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('aHlkcm9keW5hbWljcw=='); return false;">hydrodynamics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRpdml0eQ=='); return false;">relativity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ym9nb2xpdWJvdg=='); return false;">bogoliubov</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Solving the circularity of Lorentz invariance by deriving the speed of light from vacuum elasticity.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Raúl Chiclano
+</div>
+<div class="listing-date">
+Dec 22, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="c3RhYmlsaXR5JTJDbG9yZW50eiUyQ3BsYW5jay1zY2FsZQ==" data-listing-date-sort="1766361600000" data-listing-file-modified-sort="1766440663788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<a href="../simulations/20_lorentz_restoration.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Restoration Mechanism: The Energy Cost of Breaking Lorentz
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhYmlsaXR5'); return false;">stability</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bG9yZW50eg=='); return false;">lorentz</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGxhbmNrLXNjYWxl'); return false;">planck-scale</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Quantifying the vacuum’s resistance to Lorentz violations.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Raúl Chiclano
+</div>
+<div class="listing-date">
+Dec 22, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="bWF0dGVyJTJDdG9wb2xvZ3klMkNzcGlu" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766440663787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
 <a href="../simulations/13_fermionic_matter.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="13_fermionic_matter_files/figure-html/cell-2-output-2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Origin of Matter (Fermions &amp; Spin)
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWF0dGVy'); return false;">matter</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dG9wb2xvZ3k='); return false;">topology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3Bpbg=='); return false;">spin</div>
+
+</div>
 <div class="card-text listing-description delink">
 Standard scalar fields (bosons) cannot naturally produce fermions (spin 1/2 particles). This is a fundamental topological barrier. In this simulation series, we test three…<span class="math inline"></span><span class="math inline"></span>
 </div>
@@ -433,14 +629,22 @@ Dec 21, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Z3Jhdml0eSUyQ2ZpZWxkLXRoZW9yeSUyQ2R5bmFtaWNz" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766389382036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279">
+<div class="g-col-1" data-index="5" data-categories="Z3Jhdml0eSUyQ2ZpZWxkLXRoZW9yeSUyQ2R5bmFtaWNz" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766440663787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279">
 <a href="../simulations/14_field_equations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Field Equations and Energy-Momentum Tensor
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3Jhdml0eQ=='); return false;">gravity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZmllbGQtdGhlb3J5'); return false;">field-theory</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZHluYW1pY3M='); return false;">dynamics</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Deriving the effective field equations and the energy-momentum tensor for the unified v4 potential.</p>
 </div>
@@ -455,14 +659,22 @@ Dec 21, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Z3Jhdml0eSUyQ21vbmQlMkNkYXJrLW1hdHRlcg==" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766389382036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
+<div class="g-col-1" data-index="6" data-categories="Z3Jhdml0eSUyQ21vbmQlMkNkYXJrLW1hdHRlcg==" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766440663787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
 <a href="../simulations/15_mond_transition.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The MOND Transition: Deriving the <span class="math inline">\(a_0\)</span> Scale
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3Jhdml0eQ=='); return false;">gravity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bW9uZA=='); return false;">mond</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGFyay1tYXR0ZXI='); return false;">dark-matter</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Algebraic derivation of the galactic acceleration scale from vacuum rheology.</p>
 </div>
@@ -477,14 +689,22 @@ Dec 21, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="dG9wb2xvZ3klMkNmZXJtaW9ucyUyQ3NwaW4=" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766389382036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="270">
+<div class="g-col-1" data-index="7" data-categories="dG9wb2xvZ3klMkNmZXJtaW9ucyUyQ3NwaW4=" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766440663787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="270">
 <a href="../simulations/16_topological_fermions.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Topological Origin of Matter: The Berry Phase
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('dG9wb2xvZ3k='); return false;">topology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZmVybWlvbnM='); return false;">fermions</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3Bpbg=='); return false;">spin</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Demonstrating how spin-1/2 statistics emerge from nematic vacuum defects.</p>
 </div>
@@ -499,14 +719,20 @@ Dec 21, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Y29zbW9sb2d5JTJDZGFyay1lbmVyZ3k=" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1766389382034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="258">
+<div class="g-col-1" data-index="8" data-categories="Y29zbW9sb2d5JTJDZGFyay1lbmVyZ3k=" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1766440663785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="258">
 <a href="../simulations/11_cosmic_history.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="11_cosmic_history_files/figure-html/cell-2-output-2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Cosmic History: Dark Energy Dynamics
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29zbW9sb2d5'); return false;">cosmology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGFyay1lbmVyZ3k='); return false;">dark-energy</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Simulating the expansion of the universe driven by the superfluid vacuum pressure.</p>
 </div>
@@ -521,14 +747,22 @@ Dec 8, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Y29zbW9sb2d5JTJDb2JzZXJ2YXRpb25zJTJDY3Bs" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1766389382035" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
+<div class="g-col-1" data-index="9" data-categories="Y29zbW9sb2d5JTJDb2JzZXJ2YXRpb25zJTJDY3Bs" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1766440663786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
 <a href="../simulations/12_parameter_space.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="12_parameter_space_files/figure-html/cell-2-output-2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Parameter Space: Confronting Planck Data
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29zbW9sb2d5'); return false;">cosmology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b2JzZXJ2YXRpb25z'); return false;">observations</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y3Bs'); return false;">cpl</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Mapping the theoretical predictions of the Dynamic Background against observational constraints.</p>
 </div>
@@ -543,14 +777,20 @@ Dec 8, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="bWF0dGVyJTJDdG9wb2xvZ3k=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382025" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="g-col-1" data-index="10" data-categories="bWF0dGVyJTJDdG9wb2xvZ3k=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766440663777" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
 <a href="../simulations/01_vortex_stability.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Matter as Topological Defects: Vortex Stability
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWF0dGVy'); return false;">matter</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dG9wb2xvZ3k='); return false;">topology</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Demonstrating the stability of solitons in the superfluid vacuum.</p>
 </div>
@@ -565,14 +805,20 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="bWF0dGVyJTJDZm9yY2Vz" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382028" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+<div class="g-col-1" data-index="11" data-categories="bWF0dGVyJTJDZm9yY2Vz" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766440663779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
 <a href="../simulations/02_vortex_interaction.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Emergent Forces: Vortex Interaction
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWF0dGVy'); return false;">matter</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Zm9yY2Vz'); return false;">forces</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>How hydrodynamic forces mimic particle interactions.</p>
 </div>
@@ -587,14 +833,20 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Z3Jhdml0eSUyQ3JlbGF0aXZpdHk=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382029" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
+<div class="g-col-1" data-index="12" data-categories="Z3Jhdml0eSUyQ3JlbGF0aXZpdHk=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766440663780" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
 <a href="../simulations/03_gravitational_lensing.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Analog Gravity: Lensing by Density Gradients
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3Jhdml0eQ=='); return false;">gravity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRpdml0eQ=='); return false;">relativity</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Visualizing light bending in a variable density medium.</p>
 </div>
@@ -609,14 +861,22 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="Y29zbW9sb2d5JTJDZGFyay1lbmVyZ3klMkNkeW5hbWljcw==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382029" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+<div class="g-col-1" data-index="13" data-categories="Y29zbW9sb2d5JTJDZGFyay1lbmVyZ3klMkNkeW5hbWljcw==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766440663781" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
 <a href="../simulations/04_cosmology_soc.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="04_cosmology_soc_files/figure-html/cell-2-output-2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Cosmology: Self-Organized Criticality &amp; Dark Energy
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29zbW9sb2d5'); return false;">cosmology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGFyay1lbmVyZ3k='); return false;">dark-energy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZHluYW1pY3M='); return false;">dynamics</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>How the universe self-tunes to allow long-range gravity.</p>
 </div>
@@ -631,14 +891,22 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="bWF0dGVyJTJDdG9wb2xvZ3klMkMzZA==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<div class="g-col-1" data-index="14" data-categories="bWF0dGVyJTJDdG9wb2xvZ3klMkMzZA==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766440663783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
 <a href="../simulations/05_hopfion_3d.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="05_hopfion_3d_files/figure-html/cell-2-output-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 3D Matter: The Hopfion Structure
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWF0dGVy'); return false;">matter</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dG9wb2xvZ3k='); return false;">topology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('M2Q='); return false;">3d</div>
+
+</div>
 <div class="card-text listing-description delink">
 To demonstrate that the complex scalar field <span class="math inline">\(\Psi\)</span> admits stable topological solutions in 3 dimensions that are not simple points, but knotted structures (“Hopfions”).…
 </div>
@@ -653,14 +921,20 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="cXVhbnR1bS1tZWNoYW5pY3MlMkNwaWxvdC13YXZl" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
+<div class="g-col-1" data-index="15" data-categories="cXVhbnR1bS1tZWNoYW5pY3MlMkNwaWxvdC13YXZl" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766440663784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
 <a href="../simulations/06_quantum_interference.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="06_quantum_interference_files/figure-html/cell-2-output-2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Emergent Quantum Mechanics: Double Slit Experiment
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cXVhbnR1bS1tZWNoYW5pY3M='); return false;">quantum-mechanics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGlsb3Qtd2F2ZQ=='); return false;">pilot-wave</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Reproducing quantum interference through classical hydrodynamics.</p>
 </div>
@@ -675,14 +949,22 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Z3Jhdml0eSUyQ21hdGhlbWF0aWNzJTJDc3ltYm9saWM=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="241">
+<div class="g-col-1" data-index="16" data-categories="Z3Jhdml0eSUyQ21hdGhlbWF0aWNzJTJDc3ltYm9saWM=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766440663784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="241">
 <a href="../simulations/07_einstein_tensor.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Mathematical Proof: Deriving the Einstein Tensor
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3Jhdml0eQ=='); return false;">gravity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWF0aGVtYXRpY3M='); return false;">mathematics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3ltYm9saWM='); return false;">symbolic</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Symbolic derivation of G_00 from the acoustic metric.</p>
 </div>
@@ -697,14 +979,22 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="cmVsYXRpdml0eSUyQ2FuYWx5dGljYWwtZGVyaXZhdGlvbiUyQ3NvbGFyLXN5c3RlbQ==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
+<div class="g-col-1" data-index="17" data-categories="cmVsYXRpdml0eSUyQ2FuYWx5dGljYWwtZGVyaXZhdGlvbiUyQ3NvbGFyLXN5c3RlbQ==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766440663784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
 <a href="../simulations/08_ppn_gamma.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Solar System Test: PPN Parameter Gamma
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRpdml0eQ=='); return false;">relativity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHl0aWNhbC1kZXJpdmF0aW9u'); return false;">analytical-derivation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c29sYXItc3lzdGVt'); return false;">solar-system</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Analytically deriving the Post-Newtonian parameter gamma to verify compatibility with General Relativity.</p>
 </div>
@@ -719,14 +1009,22 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="ZGFyay1tYXR0ZXIlMkNtb2RpZmllZC1ncmF2aXR5JTJDYXF1YWw=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
+<div class="g-col-1" data-index="18" data-categories="ZGFyay1tYXR0ZXIlMkNtb2RpZmllZC1ncmF2aXR5JTJDYXF1YWw=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766440663785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
 <a href="../simulations/09_mond_regime.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Galactic Dynamics: Deriving the MOND Regime
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGFyay1tYXR0ZXI='); return false;">dark-matter</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bW9kaWZpZWQtZ3Jhdml0eQ=='); return false;">modified-gravity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXF1YWw='); return false;">aqual</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Investigating if the superfluid vacuum naturally generates non-Newtonian gravity at low accelerations.</p>
 </div>
@@ -741,14 +1039,22 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="cmVsYXRpdml0eSUyQ3NvbGFyLXN5c3RlbSUyQ2hpZXJhcmNoeS1wcm9ibGVt" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
+<div class="g-col-1" data-index="19" data-categories="cmVsYXRpdml0eSUyQ3NvbGFyLXN5c3RlbSUyQ2hpZXJhcmNoeS1wcm9ibGVt" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766440663785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
 <a href="../simulations/10_solar_deflection.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Solar System Test: The Hierarchy Problem
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRpdml0eQ=='); return false;">relativity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c29sYXItc3lzdGVt'); return false;">solar-system</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aGllcmFyY2h5LXByb2JsZW0='); return false;">hierarchy-problem</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Checking if the non-linear MOND corrections disrupt General Relativity in the Solar System.</p>
 </div>
@@ -765,6 +1071,9 @@ Nov 30, 2025
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
