@@ -2,6 +2,10 @@
   {
     "listing": "/simulations/index.html",
     "items": [
+      "/simulations/13_fermionic_matter.html",
+      "/simulations/14_field_equations.html",
+      "/simulations/15_mond_transition.html",
+      "/simulations/16_topological_fermions.html",
       "/simulations/11_cosmic_history.html",
       "/simulations/12_parameter_space.html",
       "/simulations/01_vortex_stability.html",
