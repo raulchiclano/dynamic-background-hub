@@ -201,6 +201,7 @@ window.Quarto = {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Simulation Lab</h1>
+            <p class="subtitle lead">Formal Validation Suite (v3.5)</p>
                       </div>
   </div>
     
@@ -263,6 +264,12 @@ window.Quarto = {
  <span class="menu-text">The Origin of Matter (Fermions &amp; Spin)</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulations/16_topological_fermions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topological Origin of Matter: The Berry Phase</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -302,6 +309,18 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="../simulations/07_einstein_tensor.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mathematical Proof: Deriving the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulations/14_field_equations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Field Equations and Energy-Momentum Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulations/15_mond_transition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The MOND Transition: Deriving the <span class="math inline">\(a_0\)</span> Scale</span></a>
   </div>
 </li>
       </ul>
@@ -345,9 +364,11 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#computational-proof-of-concept" id="toc-computational-proof-of-concept" class="nav-link active" data-scroll-target="#computational-proof-of-concept">Computational Proof of Concept</a>
+  <li><a href="#formal-validation-of-the-dynamic-background" id="toc-formal-validation-of-the-dynamic-background" class="nav-link active" data-scroll-target="#formal-validation-of-the-dynamic-background">Formal Validation of the Dynamic Background</a>
   <ul class="collapse">
-  <li><a href="#core-experiments" id="toc-core-experiments" class="nav-link" data-scroll-target="#core-experiments">Core Experiments</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#key-milestones-in-v3.5" id="toc-key-milestones-in-v3.5" class="nav-link" data-scroll-target="#key-milestones-in-v3.5">Key Milestones in v3.5</a></li>
+  <li><a href="#all-simulations" id="toc-all-simulations" class="nav-link" data-scroll-target="#all-simulations">All Simulations</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/edit/main/simulations/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -359,11 +380,29 @@ window.Quarto = {
 
 
 
-<section id="computational-proof-of-concept" class="level1">
-<h1>Computational Proof of Concept</h1>
-<p>Here we present the numerical experiments validating the core tenets of the Dynamic Background Hypothesis. All simulations are solved using the <strong>Split-Step Fourier Method</strong> for the Gross-Pitaevskii Equation.</p>
-<section id="core-experiments" class="level2">
-<h2 class="anchored" data-anchor-id="core-experiments">Core Experiments</h2>
+<section id="formal-validation-of-the-dynamic-background" class="level1">
+<h1>Formal Validation of the Dynamic Background</h1>
+<p>This laboratory contains the computational core of the DBH. We have transitioned from a “Proof of Concept” to a <strong>Formal Validation Suite</strong>, where the hypothesis is subjected to rigorous symbolic and numerical testing.</p>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p>Our validation framework operates on two complementary levels:</p>
+<ol type="1">
+<li><strong>Symbolic Tensor Calculus:</strong> Using <code>SymPy</code> to derive exact field equations, energy-momentum tensors, and the analytical emergence of the MOND scale (<span class="math inline">\(a_0\)</span>).</li>
+<li><strong>Numerical Hydrodynamics:</strong> Solving the relativistic Gross-Pitaevskii and FLRW equations using the <strong>Split-Step Fourier Method</strong> and high-precision ODE integrators.</li>
+</ol>
+</section>
+<section id="key-milestones-in-v3.5" class="level2">
+<h2 class="anchored" data-anchor-id="key-milestones-in-v3.5">Key Milestones in v3.5</h2>
+<ul>
+<li><strong>Microphysics:</strong> Emergence of spin-1/2 statistics from <span class="math inline">\(Z_2\)</span> nematic symmetry (Berry Phase <span class="math inline">\(\pi\)</span>).</li>
+<li><strong>Gravity:</strong> Analytical derivation of the galactic transition scale <span class="math inline">\(\rho_c = \sigma^2/4\beta^2\)</span>.</li>
+<li><strong>Cosmology:</strong> Mapping of the parameter space against Planck 2018 + BAO + SNe constraints.</li>
+</ul>
+<hr>
+</section>
+<section id="all-simulations" class="level2">
+<h2 class="anchored" data-anchor-id="all-simulations">All Simulations</h2>
+<p>Explore the individual notebooks below for detailed derivations and interactive code.</p>
 
 
 
@@ -372,7 +411,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bWF0dGVyJTJDdG9wb2xvZ3klMkNzcGlu" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766386635171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
+<div class="g-col-1" data-index="0" data-categories="bWF0dGVyJTJDdG9wb2xvZ3klMkNzcGlu" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766389382036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
 <a href="../simulations/13_fermionic_matter.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="13_fermionic_matter_files/figure-html/cell-2-output-2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -394,7 +433,7 @@ Dec 21, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Z3Jhdml0eSUyQ2ZpZWxkLXRoZW9yeSUyQ2R5bmFtaWNz" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766386635171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279">
+<div class="g-col-1" data-index="1" data-categories="Z3Jhdml0eSUyQ2ZpZWxkLXRoZW9yeSUyQ2R5bmFtaWNz" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766389382036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279">
 <a href="../simulations/14_field_equations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -416,7 +455,7 @@ Dec 21, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Z3Jhdml0eSUyQ21vbmQlMkNkYXJrLW1hdHRlcg==" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766386635171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
+<div class="g-col-1" data-index="2" data-categories="Z3Jhdml0eSUyQ21vbmQlMkNkYXJrLW1hdHRlcg==" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766389382036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
 <a href="../simulations/15_mond_transition.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -438,7 +477,7 @@ Dec 21, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="dG9wb2xvZ3klMkNmZXJtaW9ucyUyQ3NwaW4=" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766386635171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="270">
+<div class="g-col-1" data-index="3" data-categories="dG9wb2xvZ3klMkNmZXJtaW9ucyUyQ3NwaW4=" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1766389382036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="270">
 <a href="../simulations/16_topological_fermions.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -460,7 +499,7 @@ Dec 21, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Y29zbW9sb2d5JTJDZGFyay1lbmVyZ3k=" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1766386635169" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="258">
+<div class="g-col-1" data-index="4" data-categories="Y29zbW9sb2d5JTJDZGFyay1lbmVyZ3k=" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1766389382034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="258">
 <a href="../simulations/11_cosmic_history.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="11_cosmic_history_files/figure-html/cell-2-output-2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -482,7 +521,7 @@ Dec 8, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Y29zbW9sb2d5JTJDb2JzZXJ2YXRpb25zJTJDY3Bs" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1766386635169" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
+<div class="g-col-1" data-index="5" data-categories="Y29zbW9sb2d5JTJDb2JzZXJ2YXRpb25zJTJDY3Bs" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1766389382035" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
 <a href="../simulations/12_parameter_space.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="12_parameter_space_files/figure-html/cell-2-output-2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -504,7 +543,7 @@ Dec 8, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="bWF0dGVyJTJDdG9wb2xvZ3k=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766386635160" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="g-col-1" data-index="6" data-categories="bWF0dGVyJTJDdG9wb2xvZ3k=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382025" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
 <a href="../simulations/01_vortex_stability.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -526,7 +565,7 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="bWF0dGVyJTJDZm9yY2Vz" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766386635163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+<div class="g-col-1" data-index="7" data-categories="bWF0dGVyJTJDZm9yY2Vz" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382028" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
 <a href="../simulations/02_vortex_interaction.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -548,7 +587,7 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Z3Jhdml0eSUyQ3JlbGF0aXZpdHk=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766386635164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
+<div class="g-col-1" data-index="8" data-categories="Z3Jhdml0eSUyQ3JlbGF0aXZpdHk=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382029" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
 <a href="../simulations/03_gravitational_lensing.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -570,7 +609,7 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="Y29zbW9sb2d5JTJDZGFyay1lbmVyZ3klMkNkeW5hbWljcw==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766386635164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+<div class="g-col-1" data-index="9" data-categories="Y29zbW9sb2d5JTJDZGFyay1lbmVyZ3klMkNkeW5hbWljcw==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382029" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
 <a href="../simulations/04_cosmology_soc.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="04_cosmology_soc_files/figure-html/cell-2-output-2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -592,7 +631,7 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="bWF0dGVyJTJDdG9wb2xvZ3klMkMzZA==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766386635167" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<div class="g-col-1" data-index="10" data-categories="bWF0dGVyJTJDdG9wb2xvZ3klMkMzZA==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
 <a href="../simulations/05_hopfion_3d.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="05_hopfion_3d_files/figure-html/cell-2-output-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -614,7 +653,7 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="cXVhbnR1bS1tZWNoYW5pY3MlMkNwaWxvdC13YXZl" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766386635168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
+<div class="g-col-1" data-index="11" data-categories="cXVhbnR1bS1tZWNoYW5pY3MlMkNwaWxvdC13YXZl" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
 <a href="../simulations/06_quantum_interference.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="06_quantum_interference_files/figure-html/cell-2-output-2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -636,7 +675,7 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Z3Jhdml0eSUyQ21hdGhlbWF0aWNzJTJDc3ltYm9saWM=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766386635168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="241">
+<div class="g-col-1" data-index="12" data-categories="Z3Jhdml0eSUyQ21hdGhlbWF0aWNzJTJDc3ltYm9saWM=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="241">
 <a href="../simulations/07_einstein_tensor.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -658,7 +697,7 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="cmVsYXRpdml0eSUyQ2FuYWx5dGljYWwtZGVyaXZhdGlvbiUyQ3NvbGFyLXN5c3RlbQ==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766386635168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
+<div class="g-col-1" data-index="13" data-categories="cmVsYXRpdml0eSUyQ2FuYWx5dGljYWwtZGVyaXZhdGlvbiUyQ3NvbGFyLXN5c3RlbQ==" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
 <a href="../simulations/08_ppn_gamma.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -680,7 +719,7 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="ZGFyay1tYXR0ZXIlMkNtb2RpZmllZC1ncmF2aXR5JTJDYXF1YWw=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766386635168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
+<div class="g-col-1" data-index="14" data-categories="ZGFyay1tYXR0ZXIlMkNtb2RpZmllZC1ncmF2aXR5JTJDYXF1YWw=" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
 <a href="../simulations/09_mond_regime.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -702,7 +741,7 @@ Nov 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="cmVsYXRpdml0eSUyQ3NvbGFyLXN5c3RlbSUyQ2hpZXJhcmNoeS1wcm9ibGVt" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766386635168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
+<div class="g-col-1" data-index="15" data-categories="cmVsYXRpdml0eSUyQ3NvbGFyLXN5c3RlbSUyQ2hpZXJhcmNoeS1wcm9ibGVt" data-listing-date-sort="1764460800000" data-listing-file-modified-sort="1766389382033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
 <a href="../simulations/10_solar_deflection.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
