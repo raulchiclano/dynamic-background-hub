@@ -43,6 +43,7 @@ website:
             - simulations/02_vortex_interaction.ipynb
             - simulations/05_hopfion_3d.ipynb
             - simulations/06_quantum_interference.ipynb
+            - simulations/13_fermionic_matter.ipynb 
 
         - section: "Part II: Gravity & MOND"
           contents:
