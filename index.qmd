@@ -10,12 +10,13 @@ page-layout: full
 ## The Framework
 We present a unified physical model where spacetime, matter, and the dark sector emerge from the hydrodynamics of a single **relativistic nematic superfluid vacuum**.
 
-By modeling the vacuum as a condensate with nonlinear saturation and $Z_2$ symmetry, we demonstrate that:
+By modeling the vacuum as a pre-geometric sustrate with nonlinear saturation and $Z_2$ symmetry, we demonstrate that:
 1.  **Gravity** is the acoustic metric of the fluid's density fluctuations.
 2.  **Matter** consists of stable topological defects (fermionic vortices).
-3.  **Dark Energy** is the internal pressure of the background field.
+3.  **Light & Forces** are collective torsional modes (vorticity) of the background.
+4.  **Spacetime** is an emergent equilibrium state governed by vacuum stiffness.
 
-This project provides rigorous numerical and symbolic validation of the hypothesis, bridging the gap between hydrodynamic intuition and the Standard Model.
+This project provides rigorous numerical and symbolic validation, bridging the gap between hydrodynamic intuition and the Standard Model.
 :::
 
 ::: {.g-col-12 .g-col-md-5}
@@ -25,14 +26,14 @@ This project provides rigorous numerical and symbolic validation of the hypothes
 
 :::
 
-## Key Breakthroughs (v3.5 Update)
+## Key Breakthroughs (v4.0 Alpha Update)
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-3}
 ### 1. Solar System Precision
 Symbolic derivation confirms the Post-Newtonian parameter **$\gamma = 1$**, matching General Relativity's light deflection without screening.
-[See Derivation &rarr;](simulations/08_ppn_gamma.html)
+[See Derivation &rarr;](simulations/14_field_equations.html)
 :::
 
 ::: {.g-col-12 .g-col-md-3}
@@ -48,9 +49,9 @@ We demonstrate how **spin-1/2 statistics** emerge from the nematic symmetry of t
 :::
 
 ::: {.g-col-12 .g-col-md-3}
-### 4. Dark Energy Dynamics
-Cosmological simulations predict a **Thawing Quintessence** scenario, providing a testable alternative to the Cosmological Constant.
-[View Cosmic History &rarr;](simulations/11_cosmic_history.html)
+### 4. Emergent Light & Lorentz
+We derive **Maxwell's Equations** from vacuum vorticity and prove that **Lorentz Invariance** is a minimum energy state of the sustrate.
+[View Spacetime Structure &rarr;](simulations/20_lorentz_restoration.html)
 :::
 
 :::
@@ -63,5 +64,5 @@ All theoretical derivations and numerical simulations are open source.
 | Resource | Status | Link |
 | :--- | :--- | :--- |
 | **Paper** | **v3.5 (Technical Update)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833) |
-| **Code** | **v3.5 (Python/SymPy)** | [GitHub Repository](https://github.com/raulchiclano/Dynamic-Background-Hypothesis) |
-| **Latest** | **Fermionic Emergence Added** | [Explore Validation Suite](simulations/index.html) |
+| **Code** | **v4.0 Alpha (Python/SymPy)** | [GitHub Repository](https://github.com/raulchiclano/Dynamic-Background-Hypothesis) |
+| **Latest** | **Lorentz & Maxwell Emergence** | [Explore Validation Suite](simulations/index.html) |

@@ -1,34 +1,40 @@
 ---
 title: "Simulation Lab"
-subtitle: "Formal Validation Suite (v3.5)"
 listing:
   contents: "*.ipynb"
-  type: grid          
+  type: grid
   sort: "date desc"
   categories: true
-  sort-ui: false
-  filter-ui: false
-  fields: [image, date, title, author, description]
+  sort-ui: true
+  filter-ui: true
+  fields: [date, title, author, description, categories]
 page-layout: full
 title-block-banner: true
 ---
 
-# Formal Validation of the Dynamic Background
+# Computational Proof of Concept
 
-This laboratory contains the computational core of the DBH. We have transitioned from a "Proof of Concept" to a **Formal Validation Suite**, where the hypothesis is subjected to rigorous symbolic and numerical testing.
+Welcome to the **Simulation Lab**. This repository contains the numerical and symbolic experiments validating the core tenets of the **Dynamic Background Hypothesis (DBH)**. 
 
-## Methodology
-Our validation framework operates on two complementary levels:
+Unlike traditional "Dark Sector" models, the DBH provides the "receipts" for its claims through open-source code. From the emergence of the MOND scale to the topological origin of fermions and the restoration of Lorentz invariance, these notebooks bridge the gap between abstract theory and physical reality.
 
-1.  **Symbolic Tensor Calculus:** Using `SymPy` to derive exact field equations, energy-momentum tensors, and the analytical emergence of the MOND scale ($a_0$).
-2.  **Numerical Hydrodynamics:** Solving the relativistic Gross-Pitaevskii and FLRW equations using the **Split-Step Fourier Method** and high-precision ODE integrators.
+## Research Pillars
 
-## Key Milestones in v3.5
-*   **Microphysics:** Emergence of spin-1/2 statistics from $Z_2$ nematic symmetry (Berry Phase $\pi$).
-*   **Gravity:** Analytical derivation of the galactic transition scale $\rho_c = \sigma^2/4\beta^2$.
-*   **Cosmology:** Mapping of the parameter space against Planck 2018 + BAO + SNe constraints.
+### 1. Microphysics & Matter
+We explore how elementary particles emerge as topological defects (vortices and hopfions) in a nematic superfluid. 
+*   **Key Breakthrough:** The derivation of the **Berry Phase ($\pi$)**, proving the fermionic nature of vacuum defects.
+
+### 2. Emergent Gravity & MOND
+We derive the laws of gravitation not as fundamental postulates, but as the hydrodynamics of the vacuum.
+*   **Key Breakthrough:** The analytical derivation of the **MOND scale ($a_0$)** from the vacuum's unified potential (Action v4).
+
+### 3. Spacetime Structure & Gauge Fields
+We demonstrate how the "stage" of the universe—spacetime itself—and the forces that inhabit it (Electromagnetism) are collective modes of the sustrate.
+*   **Key Breakthrough:** The derivation of **Lorentz Invariance** as a minimum energy state and **Maxwell's Equations** from vacuum vorticity.
+
+## Technical Note
+Derivations are performed using `SymPy` for exact symbolic tensor calculus and `NumPy/SciPy` for numerical integrations of the Friedmann and Gross-Pitaevskii equations.
 
 ---
 
 ## All Simulations
-Explore the individual notebooks below for detailed derivations and interactive code.

@@ -1,7 +1,7 @@
 ---
-title: "Theoretical Framework (v3.5)"
+title: "Theoretical Framework (v4.0 Alpha)"
 author: "Raúl Chiclano"
-date: "2025-12-21"
+date: "2025-12-22"
 toc: true
 ---
 
@@ -61,10 +61,32 @@ This sign inversion is the mathematical hallmark of **Fermi-Dirac statistics**. 
 
 ---
 
-## 5. Cosmology: Thawing Quintessence
+## 5. Electromagnetism as Vacuum Vorticity
+
+In the DBH, the electromagnetic field is not an independent entity but the **vorticity of the vacuum flow**. We identify the vector potential $A_\mu$ with the fluid velocity.
+
+### Maxwell's Equations
+The field tensor $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ represents the torsional stress of the sustrate. Our simulations (Simulation 17) confirm that this structure satisfies the **Bianchi Identity** ($\partial_{[\mu} F_{\nu\rho]} = 0$), recovering Maxwell's equations as a topological necessity. Light is, therefore, a transverse wave of vacuum vorticity.
+
+---
+
+## 6. Emergent Spacetime and Lorentz Invariance
+
+The 4D spacetime structure is a **pre-geometric skeleton** emerging from the local alignment of the nematic directors (Tetrads). 
+
+### The Speed of Light ($c$)
+We have derived (Simulation 19) that the speed of light is the **speed of sound of the vacuum**, determined by its compressibility:
+$$ c^2 = \frac{\partial P}{\partial \rho} $$
+
+### Lorentz Restoration
+Lorentz invariance is not a postulate but a **minimum energy state**. Any deviation from the Minkowski metric generates a massive restoration pressure (Simulation 20). The "stiffness" of the vacuum ($\beta$) acts as a cosmic spring that maintains the constancy of $c$, explaining why Special Relativity is such a robust description of our late-time universe.
+
+---
+
+## 7. Cosmology: Thawing Quintessence
 
 The energy density of the vacuum is dynamic. Our FLRW simulations predict a **Thawing Quintessence** scenario where the equation of state $w(z)$ evolves from a $\Lambda$-like state in the past towards $w > -1$ today.
 
 ### Falsifiable Predictions
 *   **CPL Plane:** The model strictly forbids "Phantom" behavior ($w < -1$).
-*   **Confinment:** Individual $Q=1/2$ defects exhibit a logarithmic energy divergence $E \sim \ln(R)$, naturally explaining why matter must exist in neutral bound states (confinement).
+*   **Confinement:** Individual $Q=1/2$ defects exhibit a logarithmic energy divergence $E \sim \ln(R)$, naturally explaining why matter must exist in neutral bound states.

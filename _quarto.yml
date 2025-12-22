@@ -62,6 +62,13 @@ website:
             - simulations/11_cosmic_history.ipynb
             - simulations/12_parameter_space.ipynb
 
+        - section: "Part IV: Spacetime & Gauge"
+          contents:
+            - simulations/17_gauge_emergence.ipynb   # NUEVA: Maxwell
+            - simulations/18_spacetime_skeleton.ipynb # NUEVA: Tétradas
+            - simulations/19_dispersion_relation.ipynb # NUEVA: Lorentz IR
+            - simulations/20_lorentz_restoration.ipynb # NUEVA: Rigidez Lorentz
+
 format:
   html:
     theme: litera
