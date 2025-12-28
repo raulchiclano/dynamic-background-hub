@@ -1,7 +1,19 @@
 [
   {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2025-12-23-v4-alpha-launch.html",
+      "/blog/2025-12-22-emergent-light-lorentz.html",
+      "/blog/2025-12-21-v35-breakthrough.html",
+      "/blog/2025-12-08-dark-energy.html",
+      "/blog/2025-11-24-einstein-test.html"
+    ]
+  },
+  {
     "listing": "/simulations/index.html",
     "items": [
+      "/simulations/21a_macro_homeostasis.html",
+      "/simulations/21b_micro_genesis.html",
       "/simulations/17_gauge_emergence.html",
       "/simulations/18_spacetime_skeleton.html",
       "/simulations/19_dispersion_relation.html",
@@ -22,15 +34,6 @@
       "/simulations/08_ppn_gamma.html",
       "/simulations/09_mond_regime.html",
       "/simulations/10_solar_deflection.html"
-    ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/2025-12-22-emergent-light-lorentz.html",
-      "/blog/2025-12-21-v35-breakthrough.html",
-      "/blog/2025-12-08-dark-energy.html",
-      "/blog/2025-11-24-einstein-test.html"
     ]
   }
 ]
