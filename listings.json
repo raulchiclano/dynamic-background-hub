@@ -12,6 +12,8 @@
   {
     "listing": "/simulations/index.html",
     "items": [
+      "/simulations/22_photon_polarization.html",
+      "/simulations/23_zero_point_energy.html",
       "/simulations/21a_macro_homeostasis.html",
       "/simulations/21b_micro_genesis.html",
       "/simulations/17_gauge_emergence.html",
