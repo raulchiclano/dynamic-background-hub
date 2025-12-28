@@ -1,0 +1,53 @@
+---
+title: "The Unified Framework: From Maxwell's Light to the Eternal Cycle of Matter"
+author: "Raúl Chiclano"
+date: "2025-12-27"
+categories: [theory, homeostasis, relativity, v4.0]
+description: "Announcing DBH v4.0 Alpha: We have unified Gravity, Matter, Light, and Relativity into a single Homeostatic Ecosystem."
+---
+
+## Beyond the v3.5 Milestone: The Birth of v4.0 Alpha
+
+If the v3.5 update was about the "actors" (Fermions) and the "script" (MOND), the results from our latest validation phase (Sim 17-21) are about the **"stage"** (Spacetime), the **"messenger"** (Light), and the **"metabolism"** of the universe (Homeostasis).
+
+We have successfully addressed the most common criticisms of emergent gravity while providing a new vision of a living, self-regulating cosmos.
+
+## 1. Light as Vacuum Vorticity (Sim 17)
+
+In the Dynamic Background Hypothesis, light is not a separate entity. It is the **vorticity of the vacuum flow**. By identifying the electromagnetic potential $A_\mu$ with the velocity of the superfluid, we have shown that:
+
+*   **Maxwell's Equations** are not fundamental laws, but topological necessities.
+*   The **Bianchi Identity** ($\partial_{[\mu} F_{\nu\rho]} = 0$) emerges naturally, explaining the absence of magnetic monopoles.
+*   **Electric Charge** is the measure of the "stress" a topological defect exerts on the surrounding fluid.
+
+[Explore Gauge Emergence &rarr;](../simulations/17_gauge_emergence.html)
+
+## 2. The Rigidity of Einstein: Lorentz Restoration (Sim 19-20)
+
+Why is the speed of light so "absolute"? We have derived $c$ as the **speed of sound of the vacuum**:
+
+$$ c^2 = \frac{\partial P}{\partial \rho} $$
+
+Furthermore, our stability tests revealed the **Lorentz Restoration Module ($K_L$)**. Spacetime behaves like an ultra-rigid crystal; any attempt to break Lorentz invariance is met with a massive restoration pressure proportional to the vacuum's stiffness $\beta$. This explains why Special Relativity is such a robust description of our world.
+
+[View Spacetime Structure &rarr;](../simulations/20_lorentz_restoration.html)
+
+## 3. The Living Universe: Homeostasis and SOC (Sim 21)
+
+The crowning achievement of v4.0 Alpha is the discovery of the **Stable Cosmic Attractor**. We have moved from a "mechanical" universe to a "homeostatic" one.
+
+*   **The Eternal Cycle:** We demonstrated that the universe recycles matter into Dark Energy via gravitational collapse, while Dark Energy nucleates new matter through vacuum fluctuations.
+*   **Gravity as a Catalyst:** Simulation 21b proved that gravity is the "midwife" of matter. Without it, the universe remains sterile; with it, the vacuum noise condenses into stable fermionic scars.
+*   **The End of Heat Death:** The DBH predicts a steady-state ecosystem where densities of matter and energy remain constant, regulated by self-organized criticality (SOC).
+
+[Explore Cosmic Homeostasis &rarr;](../simulations/21a_macro_homeostasis.html)
+
+## The Stability Manifesto: A New Paradigm
+
+The DBH v4.0 Alpha is more than a theory of gravity; it is a **Theory of Stability**. We propose that the universe does not evolve by blind forces, but by the search for internal equilibrium. 
+
+**Gravity is elasticity, Matter is a scar, and Dark Energy is refrigeration.**
+
+With this update, the "Skeleton of Reality" is complete. Our next frontier will be the **Nuclear Forces (SU(2)/SU(3))**, exploring how the "braiding" of these vacuum twists creates the complexity of the Standard Model.
+
+**Status:** Phase 4 (v4.0 Alpha) complete. The Dynamic Background is now a fully consistent, thermodynamically closed pre-geometric framework.

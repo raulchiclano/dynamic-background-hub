@@ -69,6 +69,11 @@ website:
             - simulations/19_dispersion_relation.ipynb # NUEVA: Lorentz IR
             - simulations/20_lorentz_restoration.ipynb # NUEVA: Rigidez Lorentz
 
+        - section: "Part V: Homeostatic Cosmology"
+          contents:
+            - simulations/21a_macro_homeostasis.ipynb
+            - simulations/21b_micro_genesis.ipynb  
+
 format:
   html:
     theme: litera

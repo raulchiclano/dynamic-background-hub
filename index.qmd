@@ -54,6 +54,12 @@ We derive **Maxwell's Equations** from vacuum vorticity and prove that **Lorentz
 [View Spacetime Structure &rarr;](simulations/20_lorentz_restoration.html)
 :::
 
+::: {.g-col-12 .g-col-md-3}
+### 5. Homeostatic Universe
+We demonstrate that the universe is a self-correcting system. Numerical simulations reveal a **Stable Attractor** in the cosmic phase space, ensuring an eternal cycle of matter creation and recycling, consistent with self-organized criticality (SOC).
+[Explore Homeostasis &rarr;](simulations/21a_macro_homeostasis.html)
+:::
+
 :::
 
 ---
@@ -63,6 +69,6 @@ All theoretical derivations and numerical simulations are open source.
 
 | Resource | Status | Link |
 | :--- | :--- | :--- |
-| **Paper** | **v3.5 (Technical Update)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833) |
+| **Paper** | **v4.0 Alpha (Unified Framework)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833) |
 | **Code** | **v4.0 Alpha (Python/SymPy)** | [GitHub Repository](https://github.com/raulchiclano/Dynamic-Background-Hypothesis) |
-| **Latest** | **Lorentz & Maxwell Emergence** | [Explore Validation Suite](simulations/index.html) |
+| **Latest** | **Homeostatic Universe & Eternal Cycle** | [Explore Validation Suite](simulations/index.html) |

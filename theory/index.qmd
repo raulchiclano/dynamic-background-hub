@@ -90,3 +90,18 @@ The energy density of the vacuum is dynamic. Our FLRW simulations predict a **Th
 ### Falsifiable Predictions
 *   **CPL Plane:** The model strictly forbids "Phantom" behavior ($w < -1$).
 *   **Confinement:** Individual $Q=1/2$ defects exhibit a logarithmic energy divergence $E \sim \ln(R)$, naturally explaining why matter must exist in neutral bound states.
+  
+---
+
+## 8. The Homeostatic Paradigm (v4.0 Update)
+The DBH v4.0 introduces a shift from force-based dynamics to **stability-based homeostasis**. 
+
+### The Eternal Cycle
+We have identified a stable attractor in the cosmic phase space. The universe functions as a self-regulating organism where:
+1. **Gravity** concentrates energy (Catalysis).
+2. **Black Holes** recycle matter into the background (Trituration).
+3. **Expansion** cools the system (Refrigeration).
+4. **Vacuum Fluctuations** give birth to new matter (Nucleation).
+
+### The Optimal Scaling Hypothesis
+While the stability of the cosmic attractor is a robust structural feature of the DBH, we hypothesize that the specific rate of relaxation is governed by self-similar scaling laws. The golden ratio ($\phi$) is proposed as the **optimal stability attractor** that minimizes internal tension, though the homeostatic nature of the theory remains valid for a wide range of scaling parameters.
