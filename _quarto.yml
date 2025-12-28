@@ -44,7 +44,7 @@ website:
             - simulations/05_hopfion_3d.ipynb
             - simulations/06_quantum_interference.ipynb
             - simulations/13_fermionic_matter.ipynb 
-            - simulations/16_topological_fermions.ipynb # NUEVA: Fase de Berry
+            - simulations/16_topological_fermions.ipynb
 
         - section: "Part II: Gravity & MOND"
           contents:
@@ -53,8 +53,8 @@ website:
             - simulations/10_solar_deflection.ipynb
             - simulations/09_mond_regime.ipynb
             - simulations/07_einstein_tensor.ipynb
-            - simulations/14_field_equations.ipynb # NUEVA: Acción v4
-            - simulations/15_mond_transition.ipynb # NUEVA: Escala a0
+            - simulations/14_field_equations.ipynb
+            - simulations/15_mond_transition.ipynb
 
         - section: "Part III: Cosmology"
           contents:
@@ -64,15 +64,17 @@ website:
 
         - section: "Part IV: Spacetime & Gauge"
           contents:
-            - simulations/17_gauge_emergence.ipynb   # NUEVA: Maxwell
-            - simulations/18_spacetime_skeleton.ipynb # NUEVA: Tétradas
-            - simulations/19_dispersion_relation.ipynb # NUEVA: Lorentz IR
-            - simulations/20_lorentz_restoration.ipynb # NUEVA: Rigidez Lorentz
+            - simulations/17_gauge_emergence.ipynb
+            - simulations/18_spacetime_skeleton.ipynb
+            - simulations/19_dispersion_relation.ipynb
+            - simulations/20_lorentz_restoration.ipynb
+            - simulations/22_photon_polarization.ipynb # NUEVA: Polarización
 
         - section: "Part V: Homeostatic Cosmology"
           contents:
             - simulations/21a_macro_homeostasis.ipynb
-            - simulations/21b_micro_genesis.ipynb  
+            - simulations/21b_micro_genesis.ipynb
+            - simulations/23_zero_point_energy.ipynb   # NUEVA: Energía Punto Cero
 
 format:
   html:

@@ -26,38 +26,44 @@ This project provides rigorous numerical and symbolic validation, bridging the g
 
 :::
 
-## Key Breakthroughs (v4.0 Alpha Update)
+## Key Breakthroughs (v4.0 Beta Update)
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ### 1. Solar System Precision
 Symbolic derivation confirms the Post-Newtonian parameter **$\gamma = 1$**, matching General Relativity's light deflection without screening.
 [See Derivation &rarr;](simulations/14_field_equations.html)
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ### 2. Deriving the MOND Scale
 The galactic acceleration scale $a_0$ is no longer a free parameter; it is **derived** from the vacuum's stiffness and fluctuation strength.
 [Explore $a_0$ &rarr;](simulations/15_mond_transition.html)
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ### 3. Origin of Fermions
 We demonstrate how **spin-1/2 statistics** emerge from the nematic symmetry of the vacuum, identifying matter as a topological "twist" in space.
 [View Berry Phase &rarr;](simulations/16_topological_fermions.html)
 :::
 
-::: {.g-col-12 .g-col-md-3}
-### 4. Emergent Light & Lorentz
-We derive **Maxwell's Equations** from vacuum vorticity and prove that **Lorentz Invariance** is a minimum energy state of the sustrate.
-[View Spacetime Structure &rarr;](simulations/20_lorentz_restoration.html)
+::: {.g-col-12 .g-col-md-4}
+### 4. Vector Light & Lorentz
+We derive **Maxwell's Equations** and prove the existence of **two transverse polarization states**, confirming the vector nature of emergent light.
+[View Light Structure &rarr;](simulations/22_photon_polarization.html)
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ### 5. Homeostatic Universe
-We demonstrate that the universe is a self-correcting system. Numerical simulations reveal a **Stable Attractor** in the cosmic phase space, ensuring an eternal cycle of matter creation and recycling, consistent with self-organized criticality (SOC).
+We prove that the universe is a self-correcting system. A **Stable Attractor** ensures an eternal cycle of matter, consistent with self-organized criticality (SOC).
 [Explore Homeostasis &rarr;](simulations/21a_macro_homeostasis.html)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 6. Zero Free Parameters
+Energy injection ($S$) is derived from **first-principles quantum fluctuations** (Bogoliubov modes), eliminating arbitrary constants from cosmology.
+[View ZPE Derivation &rarr;](simulations/23_zero_point_energy.html)
 :::
 
 :::
@@ -69,6 +75,6 @@ All theoretical derivations and numerical simulations are open source.
 
 | Resource | Status | Link |
 | :--- | :--- | :--- |
-| **Paper** | **v4.0 Alpha (Unified Framework)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833) |
-| **Code** | **v4.0 Alpha (Python/SymPy)** | [GitHub Repository](https://github.com/raulchiclano/Dynamic-Background-Hypothesis) |
-| **Latest** | **Homeostatic Universe & Eternal Cycle** | [Explore Validation Suite](simulations/index.html) |
+| **Paper** | **v4.0 Beta (Unified Framework)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833) |
+| **Code** | **v4.0 Beta (Python/SymPy)** | [GitHub Repository](https://github.com/raulchiclano/Dynamic-Background-Hypothesis) |
+| **Latest** | **Vector Polarization & ZPE Derivation** | [Explore Validation Suite](simulations/index.html) |
