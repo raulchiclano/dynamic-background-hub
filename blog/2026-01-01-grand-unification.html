@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Raúl Chiclano">
+<meta name="dcterms.date" content="2026-01-01">
+<meta name="description" content="Announcing DBH v5.0 Alpha: We have successfully derived the Strong and Weak nuclear forces, completing the unification of all fundamental interactions.">
 
-<title>DevLog: Research Updates – Dynamic Background Hypothesis</title>
+<title>The Grand Unification: Deriving the Standard Model from the Nematic Vacuum – Dynamic Background Hypothesis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -70,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -137,7 +109,7 @@ window.Quarto = {
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -164,7 +136,7 @@ window.Quarto = {
 <span class="menu-text">Simulations Lab</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
+    <a class="nav-link" href="../blog/index.html"> 
 <span class="menu-text">DevLog</span></a>
   </li>  
 </ul>
@@ -187,257 +159,113 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">DevLog: Research Updates</h1>
-            <p class="subtitle lead">Daily progress, insights, and breakthroughs from the Dynamic Background project.</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Y29zbW9sb2d5">cosmology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGFyay1lbmVyZ3k=">dark-energy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aG9tZW9zdGFzaXM=">homeostasis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGlnaHQ=">light <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWF0aGVtYXRpY3M=">mathematics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWF0dGVy">matter <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9uZA==">mond <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVsYXRpdml0eQ==">relativity <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c2ltdWxhdGlvbg==">simulation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3Uz">su3 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGhlb3J5">theory <span class="quarto-category-count">(4)</span></div><div class="category" data-category="dW5pZmljYXRpb24=">unification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="djMuNQ==">v3.5 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="djQuMA==">v4.0 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="djUuMA==">v5.0 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmFsaWRhdGlvbg==">validation <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-year-of-the-unified-field" id="toc-the-year-of-the-unified-field" class="nav-link active" data-scroll-target="#the-year-of-the-unified-field">2026: The Year of the Unified Field</a></li>
+  <li><a href="#beyond-scalar-light-vector-polarization-sim-22" id="toc-beyond-scalar-light-vector-polarization-sim-22" class="nav-link" data-scroll-target="#beyond-scalar-light-vector-polarization-sim-22">1. Beyond Scalar Light: Vector Polarization (Sim 22)</a></li>
+  <li><a href="#the-weak-force-as-spinor-holonomy-sim-24-25" id="toc-the-weak-force-as-spinor-holonomy-sim-24-25" class="nav-link" data-scroll-target="#the-weak-force-as-spinor-holonomy-sim-24-25">2. The Weak Force as Spinor Holonomy (Sim 24-25)</a></li>
+  <li><a href="#the-strong-force-photographing-the-gluon-sim-26" id="toc-the-strong-force-photographing-the-gluon-sim-26" class="nav-link" data-scroll-target="#the-strong-force-photographing-the-gluon-sim-26">3. The Strong Force: Photographing the Gluon (Sim 26)</a></li>
+  <li><a href="#zero-free-parameters-the-zpe-derivation-sim-23" id="toc-zero-free-parameters-the-zpe-derivation-sim-23" class="nav-link" data-scroll-target="#zero-free-parameters-the-zpe-derivation-sim-23">4. Zero Free Parameters: The ZPE Derivation (Sim 23)</a></li>
+  <li><a href="#the-complete-architecture" id="toc-the-complete-architecture" class="nav-link" data-scroll-target="#the-complete-architecture">The Complete Architecture</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/edit/main/blog/2026-01-01-grand-unification.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Grand Unification: Deriving the Standard Model from the Nematic Vacuum</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">theory</div>
+    <div class="quarto-category">unification</div>
+    <div class="quarto-category">su3</div>
+    <div class="quarto-category">v5.0</div>
+  </div>
+  </div>
 
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="dGhlb3J5JTJDdW5pZmljYXRpb24lMkNzdTMlMkN2NS4w" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1767353237077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="500">
-<div class="thumbnail"><a href="../blog/2026-01-01-grand-unification.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/2026-01-01-grand-unification.html" class="no-external">The Grand Unification: Deriving the Standard Model from the Nematic Vacuum</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGhlb3J5'); return false;">theory</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dW5pZmljYXRpb24='); return false;">unification</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c3Uz'); return false;">su3</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('djUuMA=='); return false;">v5.0</div>
-
+<div>
+  <div class="description">
+    Announcing DBH v5.0 Alpha: We have successfully derived the Strong and Weak nuclear forces, completing the unification of all fundamental interactions.
+  </div>
 </div>
-<div class="delink listing-description"><a href="../blog/2026-01-01-grand-unification.html" class="no-external">
-<p>Announcing DBH v5.0 Alpha: We have successfully derived the Strong and Weak nuclear forces, completing the unification of all fundamental interactions.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/2026-01-01-grand-unification.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2026
-</div>
-<div class="listing-author">
-Raúl Chiclano
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="dGhlb3J5JTJDaG9tZW9zdGFzaXMlMkNyZWxhdGl2aXR5JTJDdjQuMA==" data-listing-date-sort="1766793600000" data-listing-file-modified-sort="1767353237077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="453">
-<div class="thumbnail"><a href="../blog/2025-12-23-v4-alpha-launch.html" class="no-external">
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/2025-12-23-v4-alpha-launch.html" class="no-external">The Unified Framework: From Maxwell’s Light to the Eternal Cycle of Matter</a>
-</h3>
-<div class="listing-categories">
+<div class="quarto-title-meta">
 
-<div class="listing-category" onclick="window.quartoListingCategory('dGhlb3J5'); return false;">theory</div>
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Raúl Chiclano </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
-<div class="listing-category" onclick="window.quartoListingCategory('aG9tZW9zdGFzaXM='); return false;">homeostasis</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRpdml0eQ=='); return false;">relativity</div>
+</header>
 
-<div class="listing-category" onclick="window.quartoListingCategory('djQuMA=='); return false;">v4.0</div>
 
-</div>
-<div class="delink listing-description"><a href="../blog/2025-12-23-v4-alpha-launch.html" class="no-external">
-<p>Announcing DBH v4.0 Alpha: We have unified Gravity, Matter, Light, and Relativity into a single Homeostatic Ecosystem.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/2025-12-23-v4-alpha-launch.html" class="no-external">
-<div class="listing-date">
-Dec 27, 2025
-</div>
-<div class="listing-author">
-Raúl Chiclano
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="dGhlb3J5JTJDbGlnaHQlMkNyZWxhdGl2aXR5JTJDdjQuMA==" data-listing-date-sort="1766361600000" data-listing-file-modified-sort="1767353237077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="418">
-<div class="thumbnail"><a href="../blog/2025-12-22-emergent-light-lorentz.html" class="no-external">
+<section id="the-year-of-the-unified-field" class="level2">
+<h2 class="anchored" data-anchor-id="the-year-of-the-unified-field">2026: The Year of the Unified Field</h2>
+<p>We begin this new year with a historic milestone for the <strong>Dynamic Background Hypothesis</strong>. If 2025 was the year we understood the “metabolism” of the universe, 2026 marks the moment we decoded its “DNA”.</p>
+<p>With the release of <strong>v5.0 Alpha</strong>, the DBH has successfully derived the entire symmetry group of the Standard Model (<span class="math inline">\(U(1) \times SU(2) \times SU(3)\)</span>) from the hydrodynamics of a single nematic sustrate.</p>
+</section>
+<section id="beyond-scalar-light-vector-polarization-sim-22" class="level2">
+<h2 class="anchored" data-anchor-id="beyond-scalar-light-vector-polarization-sim-22">1. Beyond Scalar Light: Vector Polarization (Sim 22)</h2>
+<p>One of the most persistent challenges for emergent gravity theories has been the vector nature of light. In Sim 22, we provided the explicit proof that the <strong>nematic director</strong> <span class="math inline">\(\mathbf{n}\)</span> supports exactly <strong>two transverse oscillation modes</strong>.</p>
+<p>Light is not a pressure wave; it is an elastic vibration of the vacuum’s orientation. This result finally reconciles hydrodynamic gravity with the full phenomenology of Maxwellian electromagnetism.</p>
+<p><a href="../simulations/22_photon_polarization.html">View Polarization Proof →</a></p>
+</section>
+<section id="the-weak-force-as-spinor-holonomy-sim-24-25" class="level2">
+<h2 class="anchored" data-anchor-id="the-weak-force-as-spinor-holonomy-sim-24-25">2. The Weak Force as Spinor Holonomy (Sim 24-25)</h2>
+<p>We have derived the <strong>Weak Interaction (<span class="math inline">\(SU(2)\)</span>)</strong> not as a field added to the vacuum, but as the <strong>rotational friction</strong> of the sustrate.</p>
+<p>By simulating the “braiding” of <span class="math inline">\(Q=1/2\)</span> defects, we demonstrated that the order of particle interactions matters—a property known as non-abelian holonomy. The resulting sign inversion (<span class="math inline">\(U_{AB} = -U_{BA}\)</span>) is the geometric origin of the weak charge. The “Wilson Loop” simulations further confirmed that the vacuum exerts a continuous torsional drag on moving fermions, identical to the Yang-Mills mechanism.</p>
+<p><a href="../simulations/24_weak_force_su2.html">Explore Weak Force Emergence →</a></p>
+</section>
+<section id="the-strong-force-photographing-the-gluon-sim-26" class="level2">
+<h2 class="anchored" data-anchor-id="the-strong-force-photographing-the-gluon-sim-26">3. The Strong Force: Photographing the Gluon (Sim 26)</h2>
+<p>Perhaps the most profound discovery of this version is the <strong>Dual Nature of the <span class="math inline">\(\sigma\)</span>-term</strong>. We have shown that the same parameter responsible for galactic rotation curves (MOND) is also responsible for <strong>Color Confinement</strong>.</p>
+<p>In Simulation 26, we achieved the first hydrodynamic visualization of a <strong>Flux Tube</strong>. At sub-atomic scales, the <span class="math inline">\(\sigma \rho^{3/2}\)</span> term triggers a local phase transition that “freezes” the vacuum between quarks. This creates a string of low-density sustrate that binds quarks together with linear tension. The “Gluon” is revealed to be a rigid bridge of frozen vacuum.</p>
+<p><a href="../simulations/26_strong_force_su3.html">View Color Confinement →</a></p>
+</section>
+<section id="zero-free-parameters-the-zpe-derivation-sim-23" class="level2">
+<h2 class="anchored" data-anchor-id="zero-free-parameters-the-zpe-derivation-sim-23">4. Zero Free Parameters: The ZPE Derivation (Sim 23)</h2>
+<p>We have eliminated the last “magic number” from our cosmology. The energy injection <span class="math inline">\(S\)</span> that fuels the expansion of the universe is no longer a free parameter. By integrating the <strong>Bogoliubov quantum fluctuations</strong> of the sustrate up to the Planck scale, we derived <span class="math inline">\(S\)</span> from first principles (<span class="math inline">\(S \propto k_P^5\)</span>).</p>
+<p>The universe is a <strong>thermodynamically closed system</strong> powered by its own quantum uncertainty.</p>
+<p><a href="../simulations/23_zero_point_energy.html">View ZPE Derivation →</a></p>
+</section>
+<section id="the-complete-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-complete-architecture">The Complete Architecture</h2>
+<p>The DBH v5.0 Alpha is now a complete <strong>Theory of Everything</strong>. We have reduced the complexity of the cosmos to a single principle: <strong>Stability</strong>.</p>
+<ul>
+<li><strong>Gravity</strong> is the elasticity of the vacuum.</li>
+<li><strong>Matter</strong> consists of topological scars (fermions).</li>
+<li><strong>Forces</strong> are the torsions and braidings of the orientation field.</li>
+<li><strong>Cosmology</strong> is the homeostatic balance of the whole.</li>
+</ul>
+<p>The “Dark Sector” has vanished, replaced by the elegant rheology of a dynamic background. The unification is complete.</p>
+<p><strong>Status:</strong> v5.0 Alpha Released. The Pre-Geometric program is now fully operational.</p>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/2025-12-22-emergent-light-lorentz.html" class="no-external">Turning on the Lights: Emergent Maxwell and the Rigidity of Spacetime</a>
-</h3>
-<div class="listing-categories">
+</section>
 
-<div class="listing-category" onclick="window.quartoListingCategory('dGhlb3J5'); return false;">theory</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGlnaHQ='); return false;">light</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRpdml0eQ=='); return false;">relativity</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('djQuMA=='); return false;">v4.0</div>
-
-</div>
-<div class="delink listing-description"><a href="../blog/2025-12-22-emergent-light-lorentz.html" class="no-external">
-<p>We have successfully derived Maxwell’s equations and Lorentz Invariance as emergent properties of the vacuum’s hydrodynamics.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/2025-12-22-emergent-light-lorentz.html" class="no-external">
-<div class="listing-date">
-Dec 22, 2025
-</div>
-<div class="listing-author">
-Raúl Chiclano
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="dGhlb3J5JTJDbWF0dGVyJTJDbW9uZCUyQ3YzLjU=" data-listing-date-sort="1766275200000" data-listing-file-modified-sort="1767353237076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="368">
-<div class="thumbnail"><a href="../blog/2025-12-21-v35-breakthrough.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/2025-12-21-v35-breakthrough.html" class="no-external">The Origin of Matter and the MOND Scale: v3.5 Breakthroughs</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGhlb3J5'); return false;">theory</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWF0dGVy'); return false;">matter</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bW9uZA=='); return false;">mond</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('djMuNQ=='); return false;">v3.5</div>
-
-</div>
-<div class="delink listing-description"><a href="../blog/2025-12-21-v35-breakthrough.html" class="no-external">
-<p>We have successfully derived the MOND acceleration scale and the topological origin of fermions from the vacuum’s nematic symmetry.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/2025-12-21-v35-breakthrough.html" class="no-external">
-<div class="listing-date">
-Dec 21, 2025
-</div>
-<div class="listing-author">
-Raúl Chiclano
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Y29zbW9sb2d5JTJDZGFyay1lbmVyZ3klMkNzaW11bGF0aW9u" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1767353237076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
-<div class="thumbnail"><a href="../blog/2025-12-08-dark-energy.html" class="no-external">
-
-<p class="card-img-top"><img src="../images/cosmology_validation.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/2025-12-08-dark-energy.html" class="no-external">Solving Dark Energy: The Thawing Universe</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29zbW9sb2d5'); return false;">cosmology</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGFyay1lbmVyZ3k='); return false;">dark-energy</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2ltdWxhdGlvbg=='); return false;">simulation</div>
-
-</div>
-<div class="delink listing-description"><a href="../blog/2025-12-08-dark-energy.html" class="no-external">
-<p>Numerical simulations confirm that the superfluid vacuum naturally drives cosmic acceleration.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/2025-12-08-dark-energy.html" class="no-external">
-<div class="listing-date">
-Dec 8, 2025
-</div>
-<div class="listing-author">
-Raúl Chiclano
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="dmFsaWRhdGlvbiUyQ3JlbGF0aXZpdHklMkNtYXRoZW1hdGljcw==" data-listing-date-sort="1763942400000" data-listing-file-modified-sort="1767353237076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
-<div class="thumbnail"><a href="../blog/2025-11-24-einstein-test.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/2025-11-24-einstein-test.html" class="no-external">Passing the Einstein Test: PPN Gamma = 1</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dmFsaWRhdGlvbg=='); return false;">validation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRpdml0eQ=='); return false;">relativity</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWF0aGVtYXRpY3M='); return false;">mathematics</div>
-
-</div>
-<div class="delink listing-description"><a href="../blog/2025-11-24-einstein-test.html" class="no-external">
-<p>Analytical confirmation that the acoustic metric reproduces General Relativity in the Solar System.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/2025-11-24-einstein-test.html" class="no-external">
-<div class="listing-date">
-Nov 24, 2025
-</div>
-<div class="listing-author">
-Raúl Chiclano
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -843,5 +671,5 @@ Raúl Chiclano
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/edit/main/blog/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/edit/main/blog/2026-01-01-grand-unification.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/raulchiclano/Dynamic-Background-Hypothesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
