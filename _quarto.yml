@@ -5,7 +5,7 @@ project:
 website:
   title: "Dynamic Background Hypothesis"
   description: "Research Hub for Vacuum Hydrodynamics and Emergent Gravity"
-  site-url: "https://raulchiclano.es"
+  site-url: "https://lab.raulchiclano.es"
   repo-url: "https://github.com/raulchiclano/Dynamic-Background-Hypothesis"
   repo-actions: [edit, issue]
   
@@ -27,7 +27,7 @@ website:
       - icon: book
         href: https://zenodo.org/doi/10.5281/zenodo.17714833
 
-  # 2. NAVEGACIÓN LATERAL 
+  # 2. NAVEGACIÓN LATERAL (Integridad Total v5.0)
   sidebar:
     - title: "Simulation Lab"
       style: "docked"
@@ -68,13 +68,19 @@ website:
             - simulations/18_spacetime_skeleton.ipynb
             - simulations/19_dispersion_relation.ipynb
             - simulations/20_lorentz_restoration.ipynb
-            - simulations/22_photon_polarization.ipynb # NUEVA: Polarización
+            - simulations/22_photon_polarization.ipynb
 
         - section: "Part V: Homeostatic Cosmology"
           contents:
             - simulations/21a_macro_homeostasis.ipynb
             - simulations/21b_micro_genesis.ipynb
-            - simulations/23_zero_point_energy.ipynb   # NUEVA: Energía Punto Cero
+            - simulations/23_zero_point_energy.ipynb
+
+        - section: "Part VI: Nuclear Forces (SU2/SU3)"
+          contents:
+            - simulations/24_weak_force_su2.ipynb
+            - simulations/25_wilson_loop.ipynb
+            - simulations/26_strong_force_su3.ipynb
 
 format:
   html:

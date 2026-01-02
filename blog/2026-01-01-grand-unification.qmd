@@ -1,0 +1,58 @@
+---
+title: "The Grand Unification: Deriving the Standard Model from the Nematic Vacuum"
+author: "Raúl Chiclano"
+date: "2026-01-01"
+categories: [theory, unification, su3, v5.0]
+description: "Announcing DBH v5.0 Alpha: We have successfully derived the Strong and Weak nuclear forces, completing the unification of all fundamental interactions."
+---
+
+## 2026: The Year of the Unified Field
+
+We begin this new year with a historic milestone for the **Dynamic Background Hypothesis**. If 2025 was the year we understood the "metabolism" of the universe, 2026 marks the moment we decoded its "DNA". 
+
+With the release of **v5.0 Alpha**, the DBH has successfully derived the entire symmetry group of the Standard Model ($U(1) \times SU(2) \times SU(3)$) from the hydrodynamics of a single nematic sustrate.
+
+## 1. Beyond Scalar Light: Vector Polarization (Sim 22)
+
+One of the most persistent challenges for emergent gravity theories has been the vector nature of light. In Sim 22, we provided the explicit proof that the **nematic director** $\mathbf{n}$ supports exactly **two transverse oscillation modes**. 
+
+Light is not a pressure wave; it is an elastic vibration of the vacuum's orientation. This result finally reconciles hydrodynamic gravity with the full phenomenology of Maxwellian electromagnetism.
+
+[View Polarization Proof &rarr;](../simulations/22_photon_polarization.html)
+
+## 2. The Weak Force as Spinor Holonomy (Sim 24-25)
+
+We have derived the **Weak Interaction ($SU(2)$)** not as a field added to the vacuum, but as the **rotational friction** of the sustrate. 
+
+By simulating the "braiding" of $Q=1/2$ defects, we demonstrated that the order of particle interactions matters—a property known as non-abelian holonomy. The resulting sign inversion ($U_{AB} = -U_{BA}$) is the geometric origin of the weak charge. The "Wilson Loop" simulations further confirmed that the vacuum exerts a continuous torsional drag on moving fermions, identical to the Yang-Mills mechanism.
+
+[Explore Weak Force Emergence &rarr;](../simulations/24_weak_force_su2.html)
+
+## 3. The Strong Force: Photographing the Gluon (Sim 26)
+
+Perhaps the most profound discovery of this version is the **Dual Nature of the $\sigma$-term**. We have shown that the same parameter responsible for galactic rotation curves (MOND) is also responsible for **Color Confinement**.
+
+In Simulation 26, we achieved the first hydrodynamic visualization of a **Flux Tube**. At sub-atomic scales, the $\sigma \rho^{3/2}$ term triggers a local phase transition that "freezes" the vacuum between quarks. This creates a string of low-density sustrate that binds quarks together with linear tension. The "Gluon" is revealed to be a rigid bridge of frozen vacuum.
+
+[View Color Confinement &rarr;](../simulations/26_strong_force_su3.html)
+
+## 4. Zero Free Parameters: The ZPE Derivation (Sim 23)
+
+We have eliminated the last "magic number" from our cosmology. The energy injection $S$ that fuels the expansion of the universe is no longer a free parameter. By integrating the **Bogoliubov quantum fluctuations** of the sustrate up to the Planck scale, we derived $S$ from first principles ($S \propto k_P^5$). 
+
+The universe is a **thermodynamically closed system** powered by its own quantum uncertainty.
+
+[View ZPE Derivation &rarr;](../simulations/23_zero_point_energy.html)
+
+## The Complete Architecture
+
+The DBH v5.0 Alpha is now a complete **Theory of Everything**. We have reduced the complexity of the cosmos to a single principle: **Stability**.
+
+*   **Gravity** is the elasticity of the vacuum.
+*   **Matter** consists of topological scars (fermions).
+*   **Forces** are the torsions and braidings of the orientation field.
+*   **Cosmology** is the homeostatic balance of the whole.
+
+The "Dark Sector" has vanished, replaced by the elegant rheology of a dynamic background. The unification is complete.
+
+**Status:** v5.0 Alpha Released. The Pre-Geometric program is now fully operational.

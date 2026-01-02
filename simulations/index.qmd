@@ -16,7 +16,7 @@ title-block-banner: true
 
 Welcome to the **Simulation Lab**. This repository contains the numerical and symbolic experiments validating the core tenets of the **Dynamic Background Hypothesis (DBH)**. 
 
-Unlike traditional "Dark Sector" models, the DBH provides the "receipts" for its claims through open-source code. From the emergence of the MOND scale to the topological origin of fermions and the restoration of Lorentz invariance, these notebooks bridge the gap between abstract theory and physical reality.
+Unlike traditional "Dark Sector" models, the DBH provides the "receipts" for its claims through open-source code. From the emergence of the MOND scale to the topological origin of fermions and the unification of all fundamental forces, these notebooks bridge the gap between abstract theory and physical reality.
 
 ## Research Pillars
 
@@ -32,8 +32,16 @@ We derive the laws of gravitation not as fundamental postulates, but as the hydr
 We demonstrate how the "stage" of the universe—spacetime itself—and the forces that inhabit it (Electromagnetism) are collective modes of the sustrate.
 *   **Key Breakthrough:** The derivation of **Lorentz Invariance** as a minimum energy state and **Maxwell's Equations** from vacuum vorticity.
 
+### 4. Nuclear Forces (SU2/SU3)
+We derive the short-range interactions of the Standard Model from the braiding and rheology of the nematic vacuum.
+*   **Key Breakthrough:** The derivation of the **Weak Force** from spinor holonomy and the first hydrodynamic visualization of **Flux Tubes (Gluons)** for color confinement.
+
+### 5. Homeostatic Cosmology
+We model the universe as a self-organized critical (SOC) system that avoids heat death through continuous recycling.
+*   **Key Breakthrough:** The discovery of a **Stable Attractor** in the cosmic phase space and the derivation of vacuum energy from **Zero-Point fluctuations**.
+
 ## Technical Note
-Derivations are performed using `SymPy` for exact symbolic tensor calculus and `NumPy/SciPy` for numerical integrations of the Friedmann and Gross-Pitaevskii equations.
+Derivations are performed using `SymPy` for exact symbolic tensor calculus and the **Split-Step Fourier Method** for high-precision numerical integrations of the Gross-Pitaevskii-Poisson system.
 
 ---
 

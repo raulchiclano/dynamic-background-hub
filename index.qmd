@@ -1,6 +1,6 @@
 ---
 title: "The Dynamic Background Hypothesis"
-subtitle: "A Pre-Geometric Framework for Emergent Gravity, Matter, and the Dark Sector"
+subtitle: "A Complete Unified Pre-Geometric Theory of Gravity, Matter, and Fundamental Forces"
 page-layout: full
 ---
 
@@ -8,15 +8,15 @@ page-layout: full
 
 ::: {.g-col-12 .g-col-md-7}
 ## The Framework
-We present a unified physical model where spacetime, matter, and the dark sector emerge from the hydrodynamics of a single **relativistic nematic superfluid vacuum**.
+We present a unified physical model where spacetime, matter, and all fundamental interactions ($U(1) \times SU(2) \times SU(3)$) emerge from the hydrodynamics of a single **relativistic nematic superfluid substrate**.
 
-By modeling the vacuum as a pre-geometric sustrate with nonlinear saturation and $Z_2$ symmetry, we demonstrate that:
-1.  **Gravity** is the acoustic metric of the fluid's density fluctuations.
-2.  **Matter** consists of stable topological defects (fermionic vortices).
-3.  **Light & Forces** are collective torsional modes (vorticity) of the background.
-4.  **Spacetime** is an emergent equilibrium state governed by vacuum stiffness.
+By modeling the vacuum as an active medium with nonlinear saturation and $Z_2$ symmetry, we demonstrate that:
+1.  **Gravity** is the elastic response of the fluid to topological defects.
+2.  **Matter** consists of stable fermionic vortices (scars in the sustrate).
+3.  **Forces** are collective torsional and braiding modes of the vacuum flow.
+4.  **Cosmology** is a homeostatic process governed by self-organized criticality.
 
-This project provides rigorous numerical and symbolic validation, bridging the gap between hydrodynamic intuition and the Standard Model.
+This project provides rigorous numerical and symbolic validation, bridging the gap between hydrodynamic intuition and the Standard Model of Particle Physics.
 :::
 
 ::: {.g-col-12 .g-col-md-5}
@@ -26,7 +26,7 @@ This project provides rigorous numerical and symbolic validation, bridging the g
 
 :::
 
-## Key Breakthroughs (v4.0 Beta Update)
+## Key Breakthroughs (v5.0 Alpha Update)
 
 ::: {.grid}
 
@@ -49,21 +49,21 @@ We demonstrate how **spin-1/2 statistics** emerge from the nematic symmetry of t
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 4. Vector Light & Lorentz
-We derive **Maxwell's Equations** and prove the existence of **two transverse polarization states**, confirming the vector nature of emergent light.
-[View Light Structure &rarr;](simulations/22_photon_polarization.html)
+### 4. Electroweak Unification
+We derive **Maxwell's Equations** and the **Weak Force ($SU(2)$)** from the spinor holonomy and braiding of vacuum defects.
+[View Gauge Emergence &rarr;](simulations/24_weak_force_su2.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ### 5. Homeostatic Universe
-We prove that the universe is a self-correcting system. A **Stable Attractor** ensures an eternal cycle of matter, consistent with self-organized criticality (SOC).
+We prove that the universe is a self-correcting system. A **Stable Attractor** ensures an eternal cycle of matter and energy, avoiding heat death.
 [Explore Homeostasis &rarr;](simulations/21a_macro_homeostasis.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 6. Zero Free Parameters
-Energy injection ($S$) is derived from **first-principles quantum fluctuations** (Bogoliubov modes), eliminating arbitrary constants from cosmology.
-[View ZPE Derivation &rarr;](simulations/23_zero_point_energy.html)
+### 6. Strong Force & Confinement
+First hydrodynamic visualization of **Flux Tubes (Gluons)**. We prove that the $\sigma$-term triggers a phase transition that confines quarks.
+[View Confinement &rarr;](simulations/26_strong_force_su3.html)
 :::
 
 :::
@@ -75,6 +75,6 @@ All theoretical derivations and numerical simulations are open source.
 
 | Resource | Status | Link |
 | :--- | :--- | :--- |
-| **Paper** | **v4.0 Beta (Unified Framework)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833) |
-| **Code** | **v4.0 Beta (Python/SymPy)** | [GitHub Repository](https://github.com/raulchiclano/Dynamic-Background-Hypothesis) |
-| **Latest** | **Vector Polarization & ZPE Derivation** | [Explore Validation Suite](simulations/index.html) |
+| **Paper** | **v5.0 Alpha (Complete Unified Theory)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833) |
+| **Code** | **v5.0 Alpha (Python/SymPy)** | [GitHub Repository](https://github.com/raulchiclano/Dynamic-Background-Hypothesis) |
+| **Latest** | **SU(2)/SU(3) Emergence & Confinement** | [Explore Validation Suite](simulations/index.html) |

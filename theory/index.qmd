@@ -1,107 +1,105 @@
 ---
-title: "Theoretical Framework (v4.0 Alpha)"
+title: "Theoretical Framework (v5.0 Alpha)"
 author: "Raúl Chiclano"
-date: "2025-12-22"
+date: "2026-01-01"
 toc: true
 ---
 
 # The Ontology of the Vacuum
 
-The Dynamic Background Hypothesis (DBH) posits a radical shift in ontology: the universe is not a container populated by fields, but a **relativistic nematic superfluid** from which all physical phenomena emerge.
+The Dynamic Background Hypothesis (DBH) posits a radical shift in ontology: the universe is not a container populated by fields, but a **relativistic nematic superfluid substrate** from which all physical phenomena emerge.
 
-> **Core Postulate:** The vacuum is a complex scalar field $\Psi$ with a non-trivial ground state and **$Z_2$ nematic symmetry** ($\Psi \equiv -\Psi$). Spacetime geometry is the acoustic metric of this fluid, and matter consists of its topological excitations.
+> **Core Postulate:** The vacuum is a complex scalar field $\Psi$ with a non-trivial ground state and **$Z_2$ nematic symmetry** ($\Psi \equiv -\Psi$). Spacetime geometry, matter, and all fundamental forces are collective excitations of this active medium.
 
 ---
 
 ## 1. The Unified Action (v4)
 
-At low energies, the dynamics of the substrate are governed by a non-linear action that unifies the dark sector with gravitational stability. The updated potential $V(\rho)$ (where $\rho = |\Psi|^2$) is:
+The dynamics of the substrate are governed by a non-linear action that unifies the dark sector, gravitation, and nuclear confinement. The potential $V(\rho)$ (where $\rho = |\Psi|^2$) is:
 
 $$ V(\rho) = \alpha \rho + \beta \rho^2 + \sigma \rho^{3/2} $$
 
-### Physical Interpretation of Parameters
-*   **$\alpha$ (Dark Energy):** Drives the spontaneous symmetry breaking and the late-time cosmic acceleration.
-*   **$\beta$ (UV Stability):** Ensures the vacuum does not collapse and recovers General Relativity in high-density regimes.
-*   **$\sigma$ (MOND Scale):** A non-polynomial correction representing vacuum fluctuations that dominate at ultra-low accelerations.
+### The Dual Role of the $\sigma$-Term
+A major breakthrough of the v5.0 release is the identification of the $\sigma$ parameter as a universal scaling constant:
+*   **Infrared (IR) Limit:** At galactic scales, $\sigma$ derives the **MOND acceleration scale** ($a_0$), explaining rotation curves without dark matter.
+*   **Ultraviolet (UV) Limit:** At sub-atomic scales, $\sigma$ triggers a **rheological phase transition** that "freezes" the vacuum between quarks, creating the flux tubes responsible for **Color Confinement**.
 
 ---
 
 ## 2. Emergent Gravity & Solar System Precision
 
-Gravity is an **effective description** of how excitations (phonons/photons) propagate through the inhomogeneous background. The perceived geometry is the **Acoustic Metric**:
+Gravity is an **effective description** of how excitations propagate through the inhomogeneous background. The perceived geometry is the **Acoustic Metric**:
 
 $$ g_{\mu\nu}^{\text{eff}} = \Omega^2 \left[ \eta_{\mu\nu} + (c_s^2 - 1) u_\mu u_\nu \right] $$
 
-Our symbolic derivations (Simulation 14) confirm that in the static weak-field limit, the model yields a Post-Newtonian parameter **$\gamma_{PPN} = 1$**, matching Solar System observations (Cassini, Shapiro delay) without the need for screening mechanisms.
+Symbolic derivations confirm that in the static weak-field limit, the model yields a Post-Newtonian parameter **$\gamma_{PPN} = 1$**, matching Solar System observations (Cassini, Shapiro delay) without the need for screening mechanisms.
 
 ---
 
 ## 3. Galactic Dynamics: Deriving the $a_0$ Scale
 
-Unlike standard MOND, which postulates a transition scale $a_0$ as a fundamental constant, the DBH **derives it** from vacuum rheology. 
-
-By analyzing the transition between the Newtonian pressure ($P \propto \rho^2$) and the modified regime ($P \propto \rho^{3/2}$), we find the critical density:
+Unlike standard MOND, the DBH **derives** the transition scale from vacuum rheology. By analyzing the equilibrium between Newtonian pressure ($P \propto \rho^2$) and the modified regime ($P \propto \rho^{3/2}$), we find:
 
 $$ \rho_c = \frac{\sigma^2}{4\beta^2} \implies a_0 \propto \left( \frac{\sigma}{\beta} \right)^2 $$
 
-This proves that the "Dark Matter" effect is a **phase transition** in the vacuum's response, occurring at a universal scale determined by the ratio of vacuum stiffness ($\beta$) and fluctuation strength ($\sigma$).
+This proves that the "Dark Matter" effect is a phase transition in the vacuum's elastic response, occurring at a universal scale determined by the sustrate's stiffness ($\beta$) and fluctuation strength ($\sigma$).
 
 ---
 
 ## 4. The Origin of Matter: Topological Fermions
 
-The most profound result of the v3.5 update is the geometric origin of matter. Because the vacuum is **nematic** ($Z_2$ symmetry), it supports defects with fractional winding numbers ($Q=1/2$).
+Because the vacuum is **nematic** ($Z_2$ symmetry), it supports defects with fractional winding numbers ($Q=1/2$).
 
 ### Spin-Statistics Emergence
-We have demonstrated (Simulation 16) that a $Q=1/2$ defect acquires a **Berry Phase of $\pi$** when rotated by $360^\circ$:
-
+We have demonstrated that a $Q=1/2$ defect acquires a **Berry Phase of $\pi$** when rotated by $360^\circ$:
 $$ \Psi \xrightarrow{2\pi \text{ rotation}} -\Psi $$
-
-This sign inversion is the mathematical hallmark of **Fermi-Dirac statistics**. Thus, fermions (electrons, quarks) are not external particles but "half-twist" vortices in the Dynamic Background.
-
----
-
-## 5. Electromagnetism as Vacuum Vorticity
-
-In the DBH, the electromagnetic field is not an independent entity but the **vorticity of the vacuum flow**. We identify the vector potential $A_\mu$ with the fluid velocity.
-
-### Maxwell's Equations
-The field tensor $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ represents the torsional stress of the sustrate. Our simulations (Simulation 17) confirm that this structure satisfies the **Bianchi Identity** ($\partial_{[\mu} F_{\nu\rho]} = 0$), recovering Maxwell's equations as a topological necessity. Light is, therefore, a transverse wave of vacuum vorticity.
+This sign inversion is the mathematical hallmark of **Fermi-Dirac statistics**. Fermions are not external particles but "half-twist" vortices in the Dynamic Background.
 
 ---
 
-## 6. Emergent Spacetime and Lorentz Invariance
+## 5. Electroweak Unification: Light and the Weak Force
+
+The electroweak sector emerges from the phase and orientation dynamics of the nematic director $\mathbf{n}$.
+
+### Vector Light and Polarization
+Electromagnetism is the **vorticity of the vacuum flow**. We have provided explicit proof that the nematic director supports exactly **two transverse oscillation modes**, confirming the vector nature of light and its polarization states.
+
+### The Weak Interaction ($SU(2)$)
+The Weak Force is derived from the **non-abelian holonomy** of spinors. The braiding of $Q=1/2$ defects induces internal rotations that satisfy the $SU(2)$ Lie algebra. The "Weak Charge" is revealed to be the rotational friction of the vacuum when particles entwine.
+
+---
+
+## 6. The Strong Force: SU(3) and Confinement
+
+The Strong Interaction is derived as a local phase transition of the sustrate. 
+
+### Flux Tubes (Gluons)
+Numerical simulations of the Gross-Pitaevskii-Poisson system show that the $\sigma$-term prevents the fluid from recovering its density between quarks. This creates a **Flux Tube** (a string of low-density vacuum) that stores energy linearly with distance, recovering the phenomenology of **Color Confinement** without the need for independent gluon fields.
+
+---
+
+## 7. Emergent Spacetime and Lorentz Invariance
 
 The 4D spacetime structure is a **pre-geometric skeleton** emerging from the local alignment of the nematic directors (Tetrads). 
 
-### The Speed of Light ($c$)
-We have derived (Simulation 19) that the speed of light is the **speed of sound of the vacuum**, determined by its compressibility:
-$$ c^2 = \frac{\partial P}{\partial \rho} $$
-
 ### Lorentz Restoration
-Lorentz invariance is not a postulate but a **minimum energy state**. Any deviation from the Minkowski metric generates a massive restoration pressure (Simulation 20). The "stiffness" of the vacuum ($\beta$) acts as a cosmic spring that maintains the constancy of $c$, explaining why Special Relativity is such a robust description of our late-time universe.
+Lorentz invariance is a **minimum energy state**. Any deviation from the Minkowski metric generates a massive restoration pressure ($K_L \propto \beta$). The "stiffness" of the vacuum acts as a cosmic spring that maintains the constancy of $c$, explaining why Special Relativity is an effective symmetry at sub-Planckian energies.
 
 ---
 
-## 7. Cosmology: Thawing Quintessence
+## 8. Homeostatic Cosmology: The Eternal Cycle
 
-The energy density of the vacuum is dynamic. Our FLRW simulations predict a **Thawing Quintessence** scenario where the equation of state $w(z)$ evolves from a $\Lambda$-like state in the past towards $w > -1$ today.
+The DBH v5.0 solves the problem of cosmic heat death through a **Self-Organized Critical (SOC)** ecosystem.
 
-### Falsifiable Predictions
-*   **CPL Plane:** The model strictly forbids "Phantom" behavior ($w < -1$).
-*   **Confinement:** Individual $Q=1/2$ defects exhibit a logarithmic energy divergence $E \sim \ln(R)$, naturally explaining why matter must exist in neutral bound states.
-  
+### Thermodynamic Self-Sufficiency
+The energy injection ($S$) required for cosmic expansion is derived from first-principles **Zero-Point Energy** fluctuations ($S \propto k_P^5$). The universe reaches a steady state where densities of matter and dark energy remain constant, a process consistent with self-similar scaling laws potentially linked to the **golden ratio ($\phi$)** as an optimal stability attractor.
+
 ---
 
-## 8. The Homeostatic Paradigm (v4.0 Update)
-The DBH v4.0 introduces a shift from force-based dynamics to **stability-based homeostasis**. 
+## 9. The Stability Manifesto
 
-### The Eternal Cycle
-We have identified a stable attractor in the cosmic phase space. The universe functions as a self-regulating organism where:
-1. **Gravity** concentrates energy (Catalysis).
-2. **Black Holes** recycle matter into the background (Trituration).
-3. **Expansion** cools the system (Refrigeration).
-4. **Vacuum Fluctuations** give birth to new matter (Nucleation).
+The fundamental departure of DBH v5.0 from previous theories is the shift from force-based dynamics to **stability-based homeostasis**. 
 
-### The Optimal Scaling Hypothesis
-While the stability of the cosmic attractor is a robust structural feature of the DBH, we hypothesize that the specific rate of relaxation is governed by self-similar scaling laws. The golden ratio ($\phi$) is proposed as the **optimal stability attractor** that minimizes internal tension, though the homeostatic nature of the theory remains valid for a wide range of scaling parameters.
+**"The universe does not evolve by forces, but by stability."**
+
+In this framework, the parameters of nature (masses, charges, $\Lambda$) are not accidental constants but the **operating points** where the sustrate achieves maximum internal equilibrium.
