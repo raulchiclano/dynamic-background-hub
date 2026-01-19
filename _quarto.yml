@@ -82,6 +82,15 @@ website:
             - simulations/25_wilson_loop.ipynb
             - simulations/26_strong_force_su3.ipynb
 
+         - section: "Part VII: Mass Hierarchy & Constants"
+          contents:
+            - simulations/27_1_electronic_attractor.ipynb
+            - simulations/27_2_hadronic_attractor.ipynb
+            - simulations/27_3_geometric_skeleton.ipynb
+            - simulations/27_4_containment_debt.ipynb
+            - simulations/27_5_structural_universality.ipynb
+            - simulations/27_6_gauge_dressing_3d.ipynb
+
 format:
   html:
     theme: litera

@@ -39,6 +39,12 @@ We derive the short-range interactions of the Standard Model from the braiding a
 ### 5. Homeostatic Cosmology
 We model the universe as a self-organized critical (SOC) system that avoids heat death through continuous recycling.
 *   **Key Breakthrough:** The discovery of a **Stable Attractor** in the cosmic phase space and the derivation of vacuum energy from **Zero-Point fluctuations**.
+   
+### 6. Mass Hierarchy & Structural Constants
+We derive particle masses not as arbitrary input parameters, but as discrete stability attractors of the vacuum substrate.
+
+* **Key Breakthrough:** Identification of the **electron as the natural unit of mass ($M_e \approx 1/\phi$)**, and evidence that the **137 ratio** emerges as a **gauge-dressed structural scale** associated with confinement in three dimensions.
+
 
 ## Technical Note
 Derivations are performed using `SymPy` for exact symbolic tensor calculus and the **Split-Step Fourier Method** for high-precision numerical integrations of the Gross-Pitaevskii-Poisson system.
